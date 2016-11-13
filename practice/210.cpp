@@ -1,17 +1,19 @@
 class Solution {
 public:
-    bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) {
+    vector<int> findOrder(int numCourses, vector<pair<int, int>>& prerequisites) {
         vector<unordered_set<int>> graph = make_graph(numCourses, prerequisites);
+        vector<int> ret;
+	    vector<int> courses(numCourses);
         if(1){
 	        vector<int> degrees = degree(graph);
-
 	        for(int i=0; i<numCourses; ++i){
 	        	int j;
 	        	for(j=0; j<numCourses; ++j)
 	        		if(degrees[j]==0) break;
 	        	if(j==numCourses)
-	        		return false;
+	        		return ret;
 	        	degrees[j] = -1;
+	        	courses[i] = j;
 	        	for(int neigh:graph[j]){
 	        		degrees[neigh]--;
 	        	}
@@ -22,12 +24,12 @@ public:
 
 	    	for(int i=0; i<numCourses; ++i){
 	    		if(!visited[i] && !dfs_cycle(graph, i, visited, onpath)){
-	    			return false;
+	    			return ret;
 	    		}
 	    	}
 	    }
 
-        return true;
+        return courses;
     }
 
 private:

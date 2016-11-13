@@ -2,7 +2,7 @@ class Solution {
 public:
     bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) {
         vector<unordered_set<int>> graph = make_graph(numCourses, prerequisites);
-        if(0){
+        if(1){
 	        vector<int> degrees = degree(graph);
 
 	        for(int i=0; i<numCourses; ++i){

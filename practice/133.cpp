@@ -21,7 +21,7 @@ public:
 
         UndirectedGraphNode* root =  new UndirectedGraphNode(node->label);
         labelmap[root->label] = root;
-     //   root->neighbors.reserve(node->neighbors.size());
+        root->neighbors.reserve(node->neighbors.size());
 
         while(!sta0.empty()){
             node = sta0.top();  sta0.pop();
@@ -32,7 +32,7 @@ public:
                 if(labelmap.find(neigh->label)==labelmap.end()){
                     UndirectedGraphNode* temp =  new UndirectedGraphNode(neigh->label);
                     labelmap[neigh->label] = temp;
-       //             temp->neighbors.reserve(neigh->neighbors.size());
+                    temp->neighbors.reserve(neigh->neighbors.size());
                     newNode->neighbors.push_back(temp);
                     sta0.push(neigh);
                 }else{

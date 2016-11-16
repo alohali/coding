@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"nei",
+				"neighbors"
+			],
+			[
+				"la",
+				"label"
+			],
+			[
+				"new",
+				"newNode"
+			],
+			[
+				"st",
+				"sta0"
+			],
+			[
+				"lab",
+				"labelSet"
+			],
+			[
+				"und",
+				"UndirectedGraphNode"
+			],
+			[
+				"re",
+				"ret"
+			],
+			[
 				"ve",
 				"vector"
 			],
@@ -140,10 +168,6 @@
 				"part"
 			],
 			[
-				"re",
-				"repeat"
-			],
-			[
 				"co",
 				"copy2GPU"
 			],
@@ -158,10 +182,6 @@
 			[
 				"outp",
 				"outputPart"
-			],
-			[
-				"la",
-				"layerParam"
 			],
 			[
 				"ful",
@@ -182,10 +202,6 @@
 			[
 				"fu",
 				"fullNet"
-			],
-			[
-				"st",
-				"string"
 			],
 			[
 				"copy",
@@ -498,27 +514,27 @@
 			[
 				"SHA",
 				"SHAREHEIGHT-4"
-			],
-			[
-				"ac",
-				"a_col"
-			],
-			[
-				"fl",
-				"float"
-			],
-			[
-				"fla",
-				"float4"
-			],
-			[
-				"wa",
-				"warpid"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/cygwin/home/alohal/coding/practice/310.cpp",
+			"settings":
+			{
+				"buffer_size": 3574,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -561,10 +577,17 @@
 	},
 	"expanded_folders":
 	[
-		"/Y/coding"
+		"/C/cygwin/home/alohal/coding"
 	],
 	"file_history":
 	[
+		"/C/cygwin/home/alohal/coding/subLime/coding.sublime-project",
+		"/C/Users/alohal/Desktop/temp200.cpp",
+		"/C/Users/alohal/Desktop/temp.cpp",
+		"/Y/coding/practice/133.cpp",
+		"/Y/coding/practice/207.cpp",
+		"/Y/coding/207/code.c",
+		"/Y/coding/210/code.c",
 		"/Y/cudaopt/include/gpuFunc.hxx",
 		"/Y/cudaopt/cudnnTest/main.cu",
 		"/Y/cudaopt/pooling/pooling.cu",
@@ -685,14 +708,7 @@
 		"//shcompute-4/alohal-scratch/gitAloha/cudaopt/share32x8/test.log",
 		"//shcompute-4/alohal-scratch/gitAloha/cudaopt/driver.sass",
 		"//shcompute-4/alohal-scratch/gitAloha/cudaopt/share32x8/sassnvcc.sass",
-		"//shcompute-4/alohal-scratch/gitAloha/cudaopt/README",
-		"//shcompute-4/alohal-scratch/gitAloha/cudaopt/share32x8/sharegemm32x8.cu",
-		"//shcompute-4/alohal-scratch/gitAloha/cudaopt/gemmtest/convolutionGemm.cu",
-		"//shcompute-4/alohal-scratch/gitAloha/cudaopt/share32x8/test",
-		"//shcompute-4/alohal-scratch/gitAloha/cudaopt/gemmtest/sharegemm.cu",
-		"//shcompute-4/alohal-sw/gemmtest/biggemm.cu",
-		"//shcompute-4/alohal-sw/gemmtest/60Gemm.cu",
-		"/C/workfolder/code/akerr-sgemm/variants/sgemm-isolated/sgemm.hpp"
+		"//shcompute-4/alohal-scratch/gitAloha/cudaopt/README"
 	],
 	"find":
 	{
@@ -726,6 +742,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"set",
 			"UV",
 			"compare",
 			" *",
@@ -852,8 +869,7 @@
 			"outputSize",
 			"OutputSizeWith",
 			"input_",
-			"fullNetGPU",
-			"split8NetParam"
+			"fullNetGPU"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -861,6 +877,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"map",
 			"pool",
 			"fp16",
 			"splitMode_",
@@ -986,8 +1003,66 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/cygwin/home/alohal/coding/practice/310.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3030,
+								3030
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1068,7 +1143,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 397.0,
+	"side_bar_width": 127.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{

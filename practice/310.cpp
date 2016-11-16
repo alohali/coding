@@ -81,7 +81,36 @@ public:
 
 
 
-
+vector<int> findMinHeightTrees(int n, vector<pair<int, int>>& edges) {
+        vector<vector<int>> neighbors(n);
+        int numNeighbors[n]{};
+        
+        for (auto e : edges) {                                  // update stats based on edges
+            neighbors[e.first].push_back(e.second), numNeighbors[e.first]++;
+            neighbors[e.second].push_back(e.first), numNeighbors[e.second]++;
+        }
+        
+        queue<int> leaves;                                      // use queue to record leaves/sinks
+        for (int i = 0; i < n; i++)
+            if (numNeighbors[i] <= 1) { leaves.push(i); }       // '<' is for case of n == 1
+            
+        while (n > 2) {                                         // BFS
+            n -= leaves.size();                                 // decrease n for the nodes in leaves
+            for (int len = leaves.size(); len; len--) {         // process nodes in leaves
+                int cur = leaves.front(); leaves.pop();
+                
+                for (auto nb : neighbors[cur])                  // update leaves
+                    if (--numNeighbors[nb] == 1) { leaves.push(nb); }
+            }
+        }
+        
+        vector<int> ans;
+        while (leaves.size()) { 
+            ans.push_back(leaves.front());                      // construct answer vector
+            leaves.pop();
+        }
+        return ans;
+}
 
 
 

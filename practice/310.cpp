@@ -1,3 +1,4 @@
+128. Longest Consecutive Sequence
 class Solution {
     vector<int> parent;
     vector<int> rank;
@@ -74,7 +75,6 @@ public:
         return(parent[x]);
     }
 };
-
 
 
 

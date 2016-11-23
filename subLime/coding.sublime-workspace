@@ -4,8 +4,56 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"ret"
+			],
+			[
+				"le",
+				"level"
+			],
+			[
 				"nei",
-				"neighbors"
+				"neigh"
+			],
+			[
+				"pus",
+				"push"
+			],
+			[
+				"r",
+				"root"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"ed",
+				"edges"
+			],
+			[
+				"edg",
+				"edge"
+			],
+			[
+				"e",
+				"edge"
+			],
+			[
+				"en",
+				"end"
+			],
+			[
+				"un",
+				"unordered_map"
+			],
+			[
+				"uno",
+				"unionSet"
+			],
+			[
+				"id",
+				"idb"
 			],
 			[
 				"la",
@@ -26,10 +74,6 @@
 			[
 				"und",
 				"UndirectedGraphNode"
-			],
-			[
-				"re",
-				"ret"
 			],
 			[
 				"ve",
@@ -368,10 +412,6 @@
 				"memS0"
 			],
 			[
-				"en",
-				"endif"
-			],
-			[
 				"pic",
 				"pic_w"
 			],
@@ -474,46 +514,6 @@
 			[
 				"fre",
 				"freeMem"
-			],
-			[
-				"che",
-				"checkvalue"
-			],
-			[
-				"cudam",
-				"cudaMemcpyHostToDevice"
-			],
-			[
-				"w",
-				"workspace"
-			],
-			[
-				"ou",
-				"out_channels"
-			],
-			[
-				"cc",
-				"CCOPT"
-			],
-			[
-				"CC",
-				"CCOPT"
-			],
-			[
-				"pd",
-				"padh"
-			],
-			[
-				"UN",
-				"undef"
-			],
-			[
-				"SH",
-				"SHAREHEIGHT"
-			],
-			[
-				"SHA",
-				"SHAREHEIGHT-4"
 			]
 		]
 	},
@@ -523,15 +523,8 @@
 			"file": "/C/cygwin/home/alohal/coding/practice/310.cpp",
 			"settings":
 			{
-				"buffer_size": 3574,
+				"buffer_size": 2116,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"settings":
-			{
-				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -577,10 +570,12 @@
 	},
 	"expanded_folders":
 	[
-		"/C/cygwin/home/alohal/coding"
+		"/C/cygwin/home/alohal/coding",
+		"/C/cygwin/home/alohal/coding/practice"
 	],
 	"file_history":
 	[
+		"/C/cygwin/home/alohal/coding/practice/128.cpp",
 		"/C/cygwin/home/alohal/coding/subLime/coding.sublime-project",
 		"/C/Users/alohal/Desktop/temp200.cpp",
 		"/C/Users/alohal/Desktop/temp.cpp",
@@ -707,12 +702,11 @@
 		"/C/Users/alohal/sublimePro/git.sublime-project",
 		"//shcompute-4/alohal-scratch/gitAloha/cudaopt/share32x8/test.log",
 		"//shcompute-4/alohal-scratch/gitAloha/cudaopt/driver.sass",
-		"//shcompute-4/alohal-scratch/gitAloha/cudaopt/share32x8/sassnvcc.sass",
-		"//shcompute-4/alohal-scratch/gitAloha/cudaopt/README"
+		"//shcompute-4/alohal-scratch/gitAloha/cudaopt/share32x8/sassnvcc.sass"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -742,6 +736,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"if",
 			"set",
 			"UV",
 			"compare",
@@ -868,8 +863,7 @@
 			"ForwardGPU",
 			"outputSize",
 			"OutputSizeWith",
-			"input_",
-			"fullNetGPU"
+			"input_"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1003,7 +997,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1012,15 +1006,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3574,
+						"buffer_size": 2116,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3030,
-								3030
+								2116,
+								2116
 							]
 						],
 						"settings":
@@ -1030,34 +1024,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 200.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1143,7 +1110,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 127.0,
+	"side_bar_width": 170.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{

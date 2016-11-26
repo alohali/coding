@@ -24,7 +24,6 @@ class Layer:
         self.recombine = False
         self.w_divide = self.h_divide = 1
         self.halo = np.zeros(4, dtype=int) #left, right, up, down
-        self.halo_total = 0 
 
     def setParam(self,**kw):
         self.name = kw['name']
@@ -70,21 +69,45 @@ class Layer:
             w = reduce(lambda x, y: x * y, self.nchwkpq[1:]) * self.data_size
         return w
 
+    def __calc_halo(self, halo_last, layer):
+        halo = halo_last[:]
+        #left = old * uv + pad, right = old * uv + rs -1 -pad -uv/2
+        halo *= layer.uv
+        left_up = layer.pad
+        right_down = rs - 1 - pad - uv/2  
+        return halo + [left_up, right_down, left_up, right_down]
+
+
+    def halo_percent(self,halo):
+        hori_halo = (halo[0]+halo[1]) * nchwkpq[2]
+        vert_halo = (halo[2]+halo[3]) * nchwkpq[3]
+        area      = nchwkpq[2] * nchwkpq[3]
+        total = hori_halo * (self.w_divide-1) + vert_halo * (self.h_divide - 1)
+        return float(halo) / float(area)
+
+
 
 
 class SplitNet:
     """ SPLIT STRATEGY DESIGN"""
+    max_split_layers = 5
+    max_halo_persent = 0.1
     def __init__(self, L3size):
         self.L3size_ = L3size
+        self.split_layers_cnt = 0
 
-    def split(self, net):
-        for layer in net.Layers:
+    def split(self, sorted_layers):
+        """split each layer"""
+        for layer in sorted_layers:
             if layer.type == Type.DATA:
-                pass
-            layer.split = __need_split(layer)
-            layer.h_divide, layer.w_divide = __calc_divide(layer)
-            print "split," , layer.name , "w,", layer.h_divide,"h,", layer.w_divide
-            layer.recombine = self.__recombine()
+                continue
+            layer.split = self.__need_split(layer)
+            self.split_layers_cnt = self.__split_cnt_calc(layer)
+            layer.h_divide, layer.w_divide = self.__calc_divide(layer)
+            layer.recombine = self.__recombine(layer)
+            print "split,%s,h,%d,w,%d" % (layer.name, layer.h_divide, layer.w_divide)
+            if layer.recombine:
+                print "Recombine at layer: %s" % layer.name
 
     def __calc_divide(self, layer):
         if not layer.split:
@@ -96,18 +119,18 @@ class SplitNet:
         cache   = self.L3size_ #- layer.weight_size, not consider weights now
         if layer.is_winograd():
             cache -= layer.weight_size
-        if io_size < cache/2:
+        if   io_size/2 < cache:
             return [1,2]
-        elif io_size < cache/3:
+        elif io_size/3 < cache:
             return [1,3]
-        elif io_size < cache/4:
+        elif io_size/4 < cache:
             return [1,4]
-        elif io_size < cache/6:
+        elif io_size/6 < cache:
             return [2,3]
-        elif io_size < cache/8:
+        elif io_size/8 < cache:
             return [2,4]
         else:
-            print "too large memory!!!!!!! not implemented now...@_@#"
+            print "too big memory!!!!!!! not implemented now...@_@#", layer.name, layer.memory_footprint
             return [1,1]
 
 
@@ -122,37 +145,51 @@ class SplitNet:
             ret = True
         return ret
 
+    def __split_cnt_calc(self, layer):
+        if layer.pre[0].split and not layer.pre[0].recombine:
+            return self.split_layers_cnt + 1
+        elif layer.split:
+            return 1
+        else:
+            return 0
+
     def __recombine(self, layer):
         if not layer.split:
             return False
         if len(layer.suc)==0 or len(layer.suc)>1:
             return True
-        else:
+        elif self.split_layers_cnt > self.max_split_layers:
+            return False
+        elif layer.halo_percent > self.max_halo_persent:
+            return False
+        elif layer.suc[0].memory_footprint < self.L3size_:
+            return True
             
 
-    def calc_halo(self, halo_last, layer):
-        halo = halo_last[:]
-        #left = old * uv + pad, right = old * uv + rs -1 -pad -uv/2
-        halo *= layer.uv
-        left_up = layer.pad
-        right_down = rs - 1 - pad - uv/2  
-        return halo + [left_up, right_down, left_up, right_down]
-
 class Network:
-    """Network init and sort"""
+    """Network init, build and sort"""
     def __init__(self):
-        data0 = Layer()
-        conv0 = Layer()
-        pool0 = Layer()
-        conv1 = Layer()
-        conv2 = Layer()
-        self.root_ = data0
-        data0.setParam(name='data0', type=Type.DATA, nchwkpq= [1, 3, 540, 960, 3, 540, 960],pre=[], suc=[conv0])
-        conv0.setParam(name='conv0', type=Type.CONV, rsuv=[7, 2], pad=3, nchwkpq= [1, 3, 540, 960, 64, 270, 480]  ,pre=[data0], suc=[pool0])
-        pool0.setParam(name='pool0', type=Type.POOL, rsuv=[3, 2], pad=1, nchwkpq= [1, 64, 270, 480, 64, 135, 240] ,pre=[conv0], suc=[conv1])
-        conv1.setParam(name='conv1', type=Type.CONV, rsuv=[1, 0], pad=0, nchwkpq= [1, 64, 135, 240, 64, 135, 240] ,pre=[pool0], suc=[conv2])
-        conv2.setParam(name='conv2', type=Type.CONV, rsuv=[3, 1], pad=1, nchwkpq= [1, 64, 135, 240, 192, 135, 240],pre=[conv1], suc=[])
-        self.Layers = [data0, conv0, pool0, conv1, conv2]  # in dfs+toposort
+        self.layers = dict() #string to layer
+        self.root   = None
+        self.sorted = False
+        self.sorted_layers = list()
+    
+    def insert_layer(self, layer, is_root):
+        if not layer.name in self.layers:
+            self.layers[layer.name] = layer
+        else:
+            raise ValueError,"duplicate layer!"
+
+        if is_root:
+            if self.root == None:
+                self.root = layer
+            else:
+                raise ValueError,"duplicate root!"
+
+    def build_net(self):
+        if self.root==None:
+            raise ValueError,"No root no net!"
+        self.dfs_toposort(self.root)
 
     def dfs_toposort(self):
         assert 0,"Haven't implemented"
@@ -160,9 +197,19 @@ class Network:
     def lifetime(self):
         assert 0,"Haven't implemented"
 
+class surrond0831(Network):
+    """network surrond0831"""
+    def __init__(self):
+        super(surrond0831, self).__init__()
+        assert 0,"need to do quickly"
+        #start from here 1127
 if __name__ == '__main__':
-    driveNet = Network()
+    network = surrond0831()
+    network.build_net()
+
     splitTest = SplitNet(4096 * 1024)
-    splitTest.split(driveNet)
+
+    if network.sorted:
+        splitTest.split(network.layers)
 
 

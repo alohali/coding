@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 import Queue
+import numpy as np
 from enum import Enum
 
 
 class Type(Enum):
+    """Layer type"""
     FC = 1,
     CONV = 2,
     POOL = 3,
@@ -14,12 +16,15 @@ class Type(Enum):
 
 
 class Layer:
+    """Single layer of CNN that contains split info"""
     data_size = 1
 
     def __init__(self):
         self.split = False
         self.recombine = False
         self.w_divide = self.h_divide = 1
+        self.halo = np.zeros(4, dtype=int) #left, right, up, down
+        self.halo_total = 0 
 
     def setParam(self,**kw):
         self.name = kw['name']
@@ -33,7 +38,7 @@ class Layer:
         self.weight_size = self.__weight_size()
         self.output_size = self.__output_size()
         self.input_size  = self.__input_size()
-        if self.__is_winograd:
+        if self.is_winograd:
             # add winograd weights into consideration as low L2 hitrate
             self.memory_footprint = self.input_size + self.output_size + self.weight_size  
         else:
@@ -49,7 +54,7 @@ class Layer:
             size += pre.output_size
         return size
 
-    def __is_winograd(self):
+    def is_winograd(self):
         if (self.type == Type.CONV and self.rs == 3):  # only 3x3 winograd now
             if (self.nchwkpq[1] > 3):#c>3
                 return True
@@ -59,7 +64,7 @@ class Layer:
         w = 0
         if (self.type == Type.CONV):
             w = self.rs * self.rs * self.nchwkpq[1] * self.nchwkpq[4] * self.data_size
-            if self.__is_winograd():  # + weight size for winograd
+            if self.is_winograd():  # + weight size for winograd
                 w = w * 16 / 9
         if (self.type == Type.FC):
             w = reduce(lambda x, y: x * y, self.nchwkpq[1:]) * self.data_size
@@ -68,11 +73,9 @@ class Layer:
 
 
 class SplitNet:
+    """ SPLIT STRATEGY DESIGN"""
     def __init__(self, L3size):
         self.L3size_ = L3size
-
-    def dfs_toposort(self, net):
-        pass
 
     def split(self, net):
         for layer in net.Layers:
@@ -89,8 +92,10 @@ class SplitNet:
         if layer.pre[0].split and not layer.pre[0].recombine: #same as last layer if not recombine
             return [layer.pre[0].h_divide, layer.pre[0].w_divide]
 
-        io_size = layer.memory_footprint #- layer.weight_size
+        io_size = layer.input_size + layer.output_size #- layer.weight_size
         cache   = self.L3size_ #- layer.weight_size, not consider weights now
+        if layer.is_winograd():
+            cache -= layer.weight_size
         if io_size < cache/2:
             return [1,2]
         elif io_size < cache/3:
@@ -102,12 +107,10 @@ class SplitNet:
         elif io_size < cache/8:
             return [2,4]
         else:
-            print "too large memory!!!!!!! not implemented now~"
+            print "too large memory!!!!!!! not implemented now...@_@#"
             return [1,1]
 
 
-    def __dfsLifeTime(self):
-        pass
 
     def __need_split(self, layer):
         ret = False
@@ -120,15 +123,23 @@ class SplitNet:
         return ret
 
     def __recombine(self, layer):
-        print "Haven't implemented"
-        return 1
+        if not layer.split:
+            return False
+        if len(layer.suc)==0 or len(layer.suc)>1:
+            return True
+        else:
+            
 
-    def haloSize(self):
-        print "Haven't implemented"
-        return 1
-
+    def calc_halo(self, halo_last, layer):
+        halo = halo_last[:]
+        #left = old * uv + pad, right = old * uv + rs -1 -pad -uv/2
+        halo *= layer.uv
+        left_up = layer.pad
+        right_down = rs - 1 - pad - uv/2  
+        return halo + [left_up, right_down, left_up, right_down]
 
 class Network:
+    """Network init and sort"""
     def __init__(self):
         data0 = Layer()
         conv0 = Layer()
@@ -136,12 +147,18 @@ class Network:
         conv1 = Layer()
         conv2 = Layer()
         self.root_ = data0
-        self.Layers = [data0, conv0, pool0, conv1, conv2]  # in dfs+toposort
         data0.setParam(name='data0', type=Type.DATA, nchwkpq= [1, 3, 540, 960, 3, 540, 960],pre=[], suc=[conv0])
         conv0.setParam(name='conv0', type=Type.CONV, rsuv=[7, 2], pad=3, nchwkpq= [1, 3, 540, 960, 64, 270, 480]  ,pre=[data0], suc=[pool0])
         pool0.setParam(name='pool0', type=Type.POOL, rsuv=[3, 2], pad=1, nchwkpq= [1, 64, 270, 480, 64, 135, 240] ,pre=[conv0], suc=[conv1])
         conv1.setParam(name='conv1', type=Type.CONV, rsuv=[1, 0], pad=0, nchwkpq= [1, 64, 135, 240, 64, 135, 240] ,pre=[pool0], suc=[conv2])
         conv2.setParam(name='conv2', type=Type.CONV, rsuv=[3, 1], pad=1, nchwkpq= [1, 64, 135, 240, 192, 135, 240],pre=[conv1], suc=[])
+        self.Layers = [data0, conv0, pool0, conv1, conv2]  # in dfs+toposort
+
+    def dfs_toposort(self):
+        assert 0,"Haven't implemented"
+
+    def lifetime(self):
+        assert 0,"Haven't implemented"
 
 if __name__ == '__main__':
     driveNet = Network()

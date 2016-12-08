@@ -519,54 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/lwdlm/tools/gen_sol_xl.py",
-			"settings":
-			{
-				"buffer_size": 5174,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/lwdlm/model_xl.py",
-			"settings":
-			{
-				"buffer_size": 40499,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/lwdlm/persistance.py",
-			"settings":
-			{
-				"buffer_size": 1901,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/Y/hwlyr/dev/compute_arch/doc/GIE/SplitLayerSourceCode/model/cnnlayer.py",
-			"settings":
-			{
-				"buffer_size": 3250,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/Y/hwlyr/dev/compute_arch/doc/GIE/SplitLayerSourceCode/model/splitmodel.py",
-			"settings":
-			{
-				"buffer_size": 7601,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/lwdlm/utils.py",
-			"settings":
-			{
-				"buffer_size": 31204,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -627,19 +579,18 @@
 	},
 	"expanded_folders":
 	[
-		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm",
-		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/docs/source",
-		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/docs/source/_images",
-		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/docs/source/_templates",
-		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia",
-		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/jupyter_tools",
-		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/lwdlm",
-		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/lwdlm/tools",
-		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/tests"
+		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm"
 	],
 	"file_history":
 	[
+		"/Y/hwlyr/dev/compute_arch/doc/GIE/SplitLayerSourceCode/model/splitlayer.py",
+		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/lwdlm/tools/gen_sol_xl.py",
+		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/lwdlm/model_xl.py",
+		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/lwdlm/persistance.py",
+		"/Y/hwlyr/dev/compute_arch/doc/GIE/SplitLayerSourceCode/model/splitmodel.py",
 		"/Y/hwlyr/dev/compute_arch/doc/GIE/SplitLayerSourceCode/model/network.py",
+		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/lwdlm/utils.py",
+		"/Y/hwlyr/dev/compute_arch/doc/GIE/SplitLayerSourceCode/model/cnnlayer.py",
 		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/lwdlm/tools/py_model.py",
 		"/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/README.rst",
 		"/Y/cudaopt/prologAnalysis/imGemm.cu",
@@ -759,14 +710,7 @@
 		"//shcompute-4/alohal-scratch/cudaopt/twoshare/.swp",
 		"/C/Users/alohal/Desktop/metrics data.log",
 		"/C/Users/alohal/Desktop/imGEMM.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/twoshare/twoshare",
-		"//shcompute-4/alohal-scratch/cudaopt/twoshare/dbf.sass",
-		"//shcompute-4/alohal-scratch/cudaopt/twoshare/sass",
-		"//shcompute-4/alohal-scratch/cudaopt/twoshare/sass.sass",
-		"//shcompute-4/alohal-scratch/cudaopt/twoshare/sharegemm.cu",
-		"/C/Users/alohal/Desktop/biggemm.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/twoshare/sharegemm",
-		"//shcompute-4/alohal-scratch/cudaopt/vsproj/cudatest/cudatest/cudatest/cuda1.cu"
+		"//shcompute-4/alohal-scratch/cudaopt/twoshare/twoshare"
 	],
 	"find":
 	{
@@ -1067,191 +1011,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/lwdlm/tools/gen_sol_xl.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5174,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4494,
-								4494
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2254.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/lwdlm/model_xl.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 40499,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11200,
-								11200
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 8208.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/lwdlm/persistance.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1901,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1266,
-								1266
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Y/hwlyr/dev/compute_arch/doc/GIE/SplitLayerSourceCode/model/cnnlayer.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3250,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								371,
-								371
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Y/hwlyr/dev/compute_arch/doc/GIE/SplitLayerSourceCode/model/splitmodel.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7601,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								273,
-								273
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/workfolder/hwLaptop/dev/compute_arch/src/lwdlm/python/nvidia/lwdlm/utils.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31204,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								246,
-								21
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],

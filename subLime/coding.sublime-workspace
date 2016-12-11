@@ -4,12 +4,20 @@
 		"selected_items":
 		[
 			[
-				"st",
-				"start_idx〔argument〕"
+				"re",
+				"ret"
+			],
+			[
+				"n",
+				"num"
 			],
 			[
 				"fi",
-				"find_num〔function〕"
+				"finally〔keyword〕"
+			],
+			[
+				"st",
+				"start_idx〔argument〕"
 			],
 			[
 				"ca",
@@ -214,10 +222,6 @@
 			[
 				"print",
 				"print_result"
-			],
-			[
-				"re",
-				"recombine"
 			],
 			[
 				"las",
@@ -510,29 +514,33 @@
 			[
 				"outpu",
 				"output_"
-			],
-			[
-				"convwei",
-				"ConvWeightSize"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/cygwin/home/alohal/coding/practice/216.py",
+			"file": "/C/cygwin/home/alohal/coding/practice/40.py",
 			"settings":
 			{
-				"buffer_size": 868,
+				"buffer_size": 1021,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/alohal/coding/practice/60.py",
+			"settings":
+			{
+				"buffer_size": 1290,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/cygwin/home/alohal/coding/pyLearn/test.py",
+			"file": "/C/cygwin/home/alohal/coding/practice/52.py",
 			"settings":
 			{
-				"buffer_size": 1264,
+				"buffer_size": 1026,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -649,17 +657,19 @@
 	"expanded_folders":
 	[
 		"/C/cygwin/home/alohal/coding",
-		"/C/cygwin/home/alohal/coding/pyLearn"
+		"/C/cygwin/home/alohal/coding/practice"
 	],
 	"file_history":
 	[
+		"/C/cygwin/home/alohal/coding/pyLearn/test.py",
+		"/C/cygwin/home/alohal/coding/practice/216.py",
+		"/C/cygwin/home/alohal/coding/practice/131.py",
 		"/C/cygwin/home/alohal/coding/pyLearn/network.py",
 		"/C/cygwin/home/alohal/coding/pyLearn/cnnlayer.py",
 		"/C/cygwin/home/alohal/coding/pyLearn/splitmodel.py",
 		"/C/cygwin/home/alohal/coding/practice/126.py",
 		"/C/cygwin/home/alohal/coding/practice/39.py",
 		"/C/cygwin/home/alohal/coding/practice/40.py",
-		"/C/cygwin/home/alohal/coding/pyLearn/test.py",
 		"/C/cygwin/home/alohal/coding/practice/test.cpp",
 		"/C/cygwin/home/alohal/coding/practice/22.py",
 		"/C/cygwin/home/alohal/coding/practice/93.py",
@@ -778,9 +788,7 @@
 		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/akerr-sgemm/dev-gemm.cu",
 		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/akerr-sgemm/gemm-fast.hpp",
 		"//shcompute-4/alohal-scratch/cudaopt/twoshare/twoshare.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/akerr-sgemm/util.hpp",
-		"//shcompute-4/alohal-scratch/cudaopt/biascopy/biascopy.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/twoshare/.swp"
+		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/akerr-sgemm/util.hpp"
 	],
 	"find":
 	{
@@ -1081,30 +1089,91 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/cygwin/home/alohal/coding/practice/216.py",
-					"semi_transient": false,
+					"file": "/C/cygwin/home/alohal/coding/practice/40.py",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 868,
+						"buffer_size": 1021,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								348,
-								348
+								0,
+								1021
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/cygwin/home/alohal/coding/practice/60.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1290
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/cygwin/home/alohal/coding/practice/52.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								948,
+								948
 							]
 						],
 						"settings":
@@ -1119,43 +1188,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "/C/cygwin/home/alohal/coding/pyLearn/test.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1264,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								344,
-								344
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1178,18 +1210,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.598488174939,
 			1.0
 		],
 		"rows":
@@ -1201,7 +1226,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 249.0
+		"height": 208.0
 	},
 	"output.find_results":
 	{
@@ -1249,7 +1274,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 63.0,
+	"side_bar_width": 233.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{

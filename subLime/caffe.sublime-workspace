@@ -4,384 +4,304 @@
 		"selected_items":
 		[
 			[
-				"f",
-				"float"
-			],
-			[
-				"po",
-				"pow_helper〔function〕"
-			],
-			[
-				"re",
-				"ret"
-			],
-			[
-				"n",
-				"num"
-			],
-			[
-				"fi",
-				"finally〔keyword〕"
-			],
-			[
-				"st",
-				"start_idx〔argument〕"
-			],
-			[
-				"ca",
-				"candidates〔argument〕"
-			],
-			[
-				"num",
-				"nums"
-			],
-			[
-				"find",
-				"find_num"
-			],
-			[
-				"ret",
-				"return〔keyword〕"
-			],
-			[
-				"ne",
-				"nextWord〔variable〕"
-			],
-			[
-				"en",
-				"endWord"
-			],
-			[
-				"fin",
-				"find_end"
-			],
-			[
-				"nex",
-				"next_layer"
-			],
-			[
-				"data",
-				"datasize"
-			],
-			[
-				"da",
-				"datasize"
-			],
-			[
-				"top",
-				"topo_method"
-			],
-			[
-				"imp",
-				"import〔keyword〕"
-			],
-			[
-				"im",
-				"import〔keyword〕"
-			],
-			[
-				"net",
-				"network"
-			],
-			[
-				"la",
-				"layer〔argument〕"
-			],
-			[
-				"T",
-				"Type"
-			],
-			[
 				"lay",
-				"layer_cnt"
-			],
-			[
-				"ol",
-				"old_layer"
-			],
-			[
-				"__ge",
-				"__get_layer_by_name"
-			],
-			[
-				"pre",
-				"pre"
-			],
-			[
-				"sp",
-				"split_layers_cnt〔variable〕"
-			],
-			[
-				"__recomb",
-				"__recombie_last_layer"
-			],
-			[
-				"ma",
-				"max_split_layers〔variable〕"
-			],
-			[
-				"split_layers_cnt",
-				"split_layers_cnt>6"
-			],
-			[
-				"suc",
-				"suc_all〔variable〕"
-			],
-			[
-				"modu",
-				"module_size"
-			],
-			[
-				"mo",
-				"module_size"
-			],
-			[
-				"real",
-				"real_layer〔variable〕"
-			],
-			[
-				"max",
-				"max_suc〔variable〕"
-			],
-			[
-				"ro",
-				"root_idx〔variable〕"
-			],
-			[
-				"idx",
-				"idx_temp"
-			],
-			[
-				"layer",
-				"layer_map"
-			],
-			[
-				"sor",
-				"sort_net"
-			],
-			[
-				"mod",
-				"module_root〔argument〕"
-			],
-			[
-				"module",
-				"module_size"
-			],
-			[
-				"lis",
-				"list0〔variable〕"
-			],
-			[
-				"V",
-				"ValueError〔class〕"
-			],
-			[
-				"__get",
-				"__get_layer_by_idx〔function〕"
-			],
-			[
-				"su",
-				"suc"
-			],
-			[
-				"poo",
-				"pool_proj"
-			],
-			[
-				"conv3",
-				"conv3x3"
-			],
-			[
-				"conv1",
-				"conv1x1"
-			],
-			[
-				"pool",
-				"pool_output"
-			],
-			[
-				"hal",
-				"halo_last〔argument〕"
-			],
-			[
-				"nor",
-				"norm1"
-			],
-			[
-				"le",
-				"left"
-			],
-			[
-				"cal",
-				"calc_halo"
-			],
-			[
-				"implem",
-				"implemented"
-			],
-			[
-				"spl",
-				"split_layers_cnt"
-			],
-			[
-				"print",
-				"print_result"
-			],
-			[
-				"las",
-				"last_layer"
+				"layer"
 			],
 			[
 				"spli",
 				"split"
 			],
 			[
-				"so",
-				"sorted_layers〔variable〕"
+				"pr",
+				"pre_layer〔variable〕"
 			],
 			[
-				"lam",
-				"layer_map"
+				"el",
+				"elif〔keyword〕"
 			],
 			[
-				"s",
-				"sorted_layers〔variable〕"
+				"ret",
+				"return〔keyword〕"
 			],
 			[
-				"em",
-				"empty〔function〕"
+				"split",
+				"split_cnt"
 			],
 			[
-				"se",
-				"self〔argument〕"
+				"la",
+				"layer〔argument〕"
 			],
 			[
-				"cla",
-				"class〔keyword〕"
+				"sp",
+				"split_cnt"
 			],
 			[
-				"con",
-				"conv1"
+				"pre",
+				"pre_layer"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"ar",
+				"argc"
+			],
+			[
+				"par",
+				"parseHyperParam"
+			],
+			[
+				"ha",
+				"hParam"
+			],
+			[
+				"hal",
+				"Halos"
+			],
+			[
+				"ag",
+				"argv"
+			],
+			[
+				"div",
+				"DIVIDEH"
+			],
+			[
+				"RE",
+				"ret"
+			],
+			[
+				"layer",
+				"layers"
+			],
+			[
+				"al",
+				"algo"
+			],
+			[
+				"in",
+				"in_c"
+			],
+			[
+				"outw",
+				"outw"
+			],
+			[
+				"out",
+				"out_w"
+			],
+			[
+				"ou",
+				"outc"
+			],
+			[
+				"name",
+				"name0"
+			],
+			[
+				"DIV",
+				"DIVIDEW"
+			],
+			[
+				"ot",
+				"out_w"
+			],
+			[
+				"di",
+				"DIVIDEW"
+			],
+			[
+				"pad",
+				"padw"
+			],
+			[
+				"TRU",
+				"true"
+			],
+			[
+				"is",
+				"isEdgePart"
+			],
+			[
+				"PART",
+				"part"
+			],
+			[
+				"DI",
+				"DIVIDEW"
+			],
+			[
+				"full",
+				"fullParam"
+			],
+			[
+				"siz",
+				"size"
+			],
+			[
+				"__ca",
+				"__calc_divide"
+			],
+			[
+				"re",
+				"recombine"
 			],
 			[
 				"ty",
-				"type=Type.DATA"
-			],
-			[
-				"df",
-				"dfs_toposort"
-			],
-			[
-				"v",
-				"ValueError〔class〕"
+				"type"
 			],
 			[
 				"mem",
 				"memory_footprint"
 			],
 			[
-				"split",
-				"split_layers_cnt"
-			],
-			[
-				"me",
-				"memory_footprint"
-			],
-			[
-				"el",
-				"ele〔argument〕"
-			],
-			[
-				"di",
-				"digits〔argument〕"
-			],
-			[
-				"c",
-				"cnt"
-			],
-			[
-				"ch",
-				"change_pos〔argument〕"
-			],
-			[
-				"e",
-				"ele"
-			],
-			[
-				"l",
-				"left"
-			],
-			[
-				"ge",
-				"generateParenthesis"
-			],
-			[
-				"dat",
-				"data2"
-			],
-			[
-				"ar",
-				"array"
-			],
-			[
-				"nu",
-				"num1"
-			],
-			[
-				"rig",
-				"right_down"
-			],
-			[
-				"lef",
-				"left_up"
-			],
-			[
 				"wei",
 				"weight_size"
 			],
 			[
-				"nei",
-				"neigh"
+				"weig",
+				"weightSize"
 			],
 			[
-				"pus",
-				"push"
+				"dfs",
+				"dfsSplit"
 			],
 			[
-				"r",
-				"root"
+				"q",
+				"q0"
 			],
 			[
-				"ed",
-				"edges"
+				"da",
+				"datasize"
 			],
 			[
-				"edg",
-				"edge"
+				"se",
+				"self"
 			],
 			[
-				"un",
-				"unordered_map"
+				"conv",
+				"conv0"
 			],
 			[
-				"uno",
-				"unionSet"
+				"typ",
+				"Type"
 			],
 			[
-				"id",
-				"idb"
+				"dat",
+				"data0"
 			],
 			[
-				"new",
-				"newNode"
+				"con",
+				"conv0"
 			],
 			[
-				"lab",
-				"labelSet"
+				"poo",
+				"pool0"
 			],
 			[
-				"und",
-				"UndirectedGraphNode"
+				"t",
+				"type"
+			],
+			[
+				"s",
+				"successor"
+			],
+			[
+				"no",
+				"None"
+			],
+			[
+				"l",
+				"Layer"
+			],
+			[
+				"a",
+				"Animals"
+			],
+			[
+				"sr",
+				"srcb"
+			],
+			[
+				"com",
+				"compareOutput"
+			],
+			[
+				"c",
+				"compareOutputPart"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"ti",
+				"TILEW"
+			],
+			[
+				"bl",
+				"blockIdx"
+			],
+			[
+				"CTA",
+				"CTAX"
+			],
+			[
+				"tilw",
+				"TILEW"
+			],
+			[
+				"til",
+				"tileh"
+			],
+			[
+				"chek",
+				"CHECKCUDA"
+			],
+			[
+				"che",
+				"checkvalue"
+			],
+			[
+				"st",
+				"stoi"
+			],
+			[
+				"e",
+				"enableRandom"
+			],
+			[
+				"ch",
+				"checkvalue"
+			],
+			[
+				"loo",
+				"loopcnt"
+			],
+			[
+				"cume",
+				"cudaMemcpyDeviceToHost"
+			],
+			[
+				"ma",
+				"maxpool"
+			],
+			[
+				"len",
+				"lenIn"
+			],
+			[
+				"CHE",
+				"checkCudaErrors"
+			],
+			[
+				"ST",
+				"status"
 			],
 			[
 				"ve",
@@ -396,20 +316,8 @@
 				"degree"
 			],
 			[
-				"pr",
-				"prerequisites"
-			],
-			[
-				"pad",
-				"padw"
-			],
-			[
 				"u",
 				"uv"
-			],
-			[
-				"out",
-				"OutputCpu"
 			],
 			[
 				"h",
@@ -436,16 +344,20 @@
 				"convLayer"
 			],
 			[
+				"spl",
+				"splitMode"
+			],
+			[
 				"wo",
 				"woff"
 			],
 			[
-				"set",
-				"LayerSetUp"
+				"ne",
+				"needReshape"
 			],
 			[
-				"siz",
-				"sizeof"
+				"set",
+				"LayerSetUp"
 			],
 			[
 				"offset",
@@ -456,24 +368,12 @@
 				"param"
 			],
 			[
-				"outw",
-				"out_w"
-			],
-			[
 				"G",
 				"gm200"
 			],
 			[
 				"Sp",
 				"splitMode"
-			],
-			[
-				"conv",
-				"convNum"
-			],
-			[
-				"par",
-				"param"
 			],
 			[
 				"part",
@@ -508,87 +408,155 @@
 				"RunCPU"
 			],
 			[
+				"net",
+				"NetParam"
+			],
+			[
 				"fu",
 				"fullNet"
 			],
 			[
 				"copy",
 				"copy2CPU"
+			],
+			[
+				"outpu",
+				"output_"
+			],
+			[
+				"convwei",
+				"ConvWeightSize"
+			],
+			[
+				"pu",
+				"push_back"
+			],
+			[
+				"he",
+				"h_weight"
+			],
+			[
+				"wor",
+				"workSpace_"
+			],
+			[
+				"bind",
+				"bindRegion"
+			],
+			[
+				"data",
+				"dataP0"
+			],
+			[
+				"works",
+				"workSpace_"
+			],
+			[
+				"max",
+				"maxWorkSpace"
+			],
+			[
+				"DST",
+				"dst0"
+			],
+			[
+				"ge",
+				"getBuf"
+			],
+			[
+				"cud",
+				"cudnnLayer"
+			],
+			[
+				"nor",
+				"NORM"
+			],
+			[
+				"cund",
+				"cudnnLayer"
+			],
+			[
+				"fi",
+				"filterDim"
+			],
+			[
+				"lr",
+				"lrnN"
+			],
+			[
+				"lrn",
+				"lrnAlpha"
+			],
+			[
+				"resul",
+				"ResultDim"
+			],
+			[
+				"te",
+				"testTensor"
+			],
+			[
+				"get",
+				"getDataType"
+			],
+			[
+				"lrnp",
+				"LrnParam"
+			],
+			[
+				"lef",
+				"LeftHillow"
+			],
+			[
+				"we",
+				"weightSize"
+			],
+			[
+				"sz",
+				"size_t"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/cygwin/home/alohal/coding/practice/85.py",
+			"file": "/Y/caffe/examples/cifar10/cifar10_full_train_aloha.prototxt",
 			"settings":
 			{
-				"buffer_size": 267,
+				"buffer_size": 3122,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "/Y/caffe/examples/cifar10/cifar10_full_solver.prototxt",
+			"settings":
+			{
+				"buffer_size": 945,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/caffe/examples/cifar10/cifar10_full_train_test.prototxt",
+			"settings":
+			{
+				"buffer_size": 3122,
+				"line_ending": "Unix"
+			}
 		}
 	],
-	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system": "",
 	"build_system_choices":
 	[
 		[
 			[
 				[
-					"Packages/C++/C++ Single File.sublime-build",
-					""
-				],
-				[
-					"Packages/C++/C++ Single File.sublime-build",
-					"Run"
-				],
-				[
-					"Packages/CUDA C++/cuda-c++.sublime-build",
-					""
-				],
-				[
-					"Packages/CUDA C++/cuda-c++.sublime-build",
-					"Run"
-				],
-				[
-					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
-					""
-				]
-			],
-			[
-				"Packages/C++/C++ Single File.sublime-build",
-				""
-			]
-		],
-		[
-			[
-				[
 					"Packages/Python/Python.sublime-build",
 					""
 				],
 				[
 					"Packages/Python/Python.sublime-build",
 					"Syntax Check"
-				]
-			],
-			[
-				"Packages/Python/Python.sublime-build",
-				""
-			]
-		],
-		[
-			[
-				[
-					"Packages/Python/Python.sublime-build",
-					""
-				],
-				[
-					"Packages/Python/Python.sublime-build",
-					"Syntax Check"
-				],
-				[
-					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
-					""
 				]
 			],
 			[
@@ -600,14 +568,10 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 185.0,
-		"last_filter": "install",
+		"height": 490.0,
+		"last_filter": "Package Control: ",
 		"selected_items":
 		[
-			[
-				"install",
-				"Package Control: Install Package"
-			],
 			[
 				"Package Control: ",
 				"Package Control: Remove Package"
@@ -617,14 +581,15 @@
 				"Set Syntax: C++"
 			]
 		],
-		"width": 593.0
+		"width": 703.0
 	},
 	"console":
 	{
-		"height": 626.0,
+		"height": 122.0,
 		"history":
 		[
-			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"find",
+			"ls",
 			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
@@ -639,55 +604,63 @@
 	},
 	"expanded_folders":
 	[
-		"/C/cygwin/home/alohal/coding"
+		"/Y/caffe",
+		"/Y/caffe/examples",
+		"/Y/caffe/examples/cifar10",
+		"/Y/caffe/models",
+		"/Y/caffe/models/bvlc_alexnet",
+		"/Y/caffe/models/bvlc_googlenet",
+		"/Y/caffe/models/bvlc_reference_rcnn_ilsvrc13"
 	],
 	"file_history":
 	[
-		"/C/cygwin/home/alohal/coding/practice/60.py",
-		"/C/cygwin/home/alohal/coding/practice/52.py",
-		"/C/cygwin/home/alohal/coding/practice/50.py",
-		"/C/cygwin/home/alohal/coding/pyLearn/test.py",
-		"/C/cygwin/home/alohal/coding/practice/216.py",
-		"/C/cygwin/home/alohal/coding/practice/131.py",
-		"/C/cygwin/home/alohal/coding/pyLearn/network.py",
-		"/C/cygwin/home/alohal/coding/pyLearn/cnnlayer.py",
-		"/C/cygwin/home/alohal/coding/pyLearn/splitmodel.py",
-		"/C/cygwin/home/alohal/coding/practice/126.py",
-		"/C/cygwin/home/alohal/coding/practice/39.py",
-		"/C/cygwin/home/alohal/coding/practice/40.py",
-		"/C/cygwin/home/alohal/coding/practice/test.cpp",
-		"/C/cygwin/home/alohal/coding/practice/22.py",
-		"/C/cygwin/home/alohal/coding/practice/93.py",
-		"/C/cygwin/home/alohal/coding/practice/17.py",
-		"/C/cygwin/home/alohal/coding/pyLearn/model.py",
-		"/C/cygwin/home/alohal/coding/practice/385.py",
-		"/C/cygwin/home/alohal/coding/practice/43.py",
-		"/C/cygwin/home/alohal/coding/practice/383.py",
-		"/C/cygwin/home/alohal/coding/practice/310.cpp",
-		"/C/cygwin/home/alohal/coding/practice/128.cpp",
-		"/C/cygwin/home/alohal/coding/subLime/coding.sublime-project",
-		"/C/Users/alohal/Desktop/temp200.cpp",
-		"/C/Users/alohal/Desktop/temp.cpp",
-		"/Y/coding/practice/133.cpp",
-		"/Y/coding/practice/207.cpp",
-		"/Y/coding/207/code.c",
-		"/Y/coding/210/code.c",
+		"/Y/caffe/examples/cifar10/cifar10_full_solver_lr1.prototxt",
+		"/Y/caffe/examples/cifar10/cifar10_full_solver_lr2.prototxt",
+		"/Y/caffe/examples/cifar10/cifar10_quick.prototxt",
+		"/Y/caffe/examples/cifar10/cifar10_full.prototxt",
+		"/Y/caffe/examples/cifar10/cifar10_full_solver.prototxt",
+		"/Y/caffe/examples/cifar10/cifar10_aloha.prototxt",
+		"/Y/caffe/examples/cifar10/train_full.sh",
+		"/Y/cudaopt/include/util.h",
+		"/Y/cudaopt/splitLayer/fp16.log",
+		"/Y/cudaopt/splitLayer/makefile",
+		"/Y/cudaopt/include/cpuFunc.hxx",
+		"/Y/cudaopt/splitLayer/laneNet.cpp",
+		"/Y/cudaopt/learn/matrixTrans.cu",
+		"/Y/cudaopt/learn/matrix2.cu",
+		"/Y/cudaopt/learn/m2.cu",
+		"/Y/cudaopt/biggemm/biggemm.cu",
+		"/Y/cudaopt/splitLayer/model.py",
+		"/Y/cudaopt/share32x8/sharegemm32x8.cu",
+		"/Y/cudaopt/splitLayer/main.cu",
+		"/Y/cudaopt/pooling/pooling.cu",
+		"/Y/cudaopt/usefulCode/implicit gemm/conv2d_experimental_sgemm_kernel.hxx",
+		"/Y/cudaopt/pooling/gm200.log",
+		"/Y/cudaopt/pooling/gp10bmetrics.log",
+		"/Y/cudaopt/implicitGEMM/imGemm.cu",
+		"/Y/cudaopt/prologAnalysis/imGemm.cu",
+		"/Y/cudaopt/prologAnalysis/ori.sass",
+		"/Y/cudaopt/usefulCode/implicit gemm/conv2d_experimental_sgemm.cu",
+		"/Y/cudaopt/usefulCode/implicit gemm/conv2d_experimental_gemm.hxx",
+		"/Y/cudaopt/sublimePro/ownCode.sublime-project",
+		"/Y/cudaopt/prologAnalysis/new.sass",
+		"/Y/cudaopt/twoshare/makefile",
+		"/Y/cudaopt/implicitGEMM/imGemmGeneral.cu",
+		"/Y/cudaopt/pooling/b.sass",
+		"/Y/cudaopt/implicitGEMM/imGemm.sass",
+		"/Y/cudaopt/pooling/makefile",
+		"/Y/cudaopt/pooling/1.sass",
+		"/Y/cudaopt/coding/code.c",
 		"/Y/cudaopt/include/gpuFunc.hxx",
 		"/Y/cudaopt/cudnnTest/main.cu",
-		"/Y/cudaopt/pooling/pooling.cu",
-		"/Y/cudaopt/pooling/makefile",
 		"/Y/cudaopt/test/haloCalc.c",
-		"/Y/cudaopt/include/util.h",
 		"/Y/cudaopt/pooling/main.cu",
 		"/Y/cudaopt/biascopy/biascopy.cu",
-		"/Y/cudaopt/include/cpuFunc.hxx",
 		"/Y/cudaopt/cudnnTest/net.hxx",
 		"/Y/cudaopt/cudnnTest/makefile",
-		"/Y/cudaopt/usefulCode/implicit gemm/conv2d_experimental_sgemm.cu",
 		"/Y/cudaopt/test/powf.sass",
 		"/Y/cudaopt/cudnnTest/test.cu",
 		"/Y/cudaopt/cudnnTest/layers.hxx",
-		"/Y/cudaopt/implicitGEMM/imGemm.cu",
 		"/Y/cudaopt/cudnnTest/44.txt",
 		"/Y/cudaopt/cudnnTest/aa.txt",
 		"/Y/cudaopt/cudnnTest/66.txt",
@@ -708,13 +681,10 @@
 		"/Y/cudaopt/split.txt",
 		"/Y/cudaopt/cudnnTest/cudnn.h",
 		"/Y/cudaopt/script/autorun.py",
-		"/Y/cudaopt/biggemm/biggemm.cu",
 		"/Y/cudaopt/test/lrn.sass",
 		"/Y/cudaopt/test/test.cu",
 		"/Y/cudaopt/script/parsecsv.py",
 		"/Y/cudaopt/pooling/util.h",
-		"/Y/cudaopt/implicitGEMM/imGemm.sass",
-		"/Y/cudaopt/implicitGEMM/imGemmGeneral.cu",
 		"/Y/cudaopt/implicitGEMM/imGemm.hxx",
 		"/Y/cudaopt/cudnnTest/lenet.cu",
 		"/Y/cudaopt/implicitGEMM/makefile",
@@ -770,7 +740,8 @@
 		"//shcompute-4/alohal-scratch/cudaopt/twoshare/testbar.bass",
 		"//shcompute-4/alohal-scratch/cudaopt/test/makefile",
 		"//shcompute-4/alohal-scratch/cudaopt/test/textest.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/akerr-sgemm/dev-gemm.cu"
+		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/akerr-sgemm/dev-gemm.cu",
+		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/akerr-sgemm/gemm-fast.hpp"
 	],
 	"find":
 	{
@@ -804,116 +775,85 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"8",
-			"print",
+			"BatchNorm",
+			"lrn",
+			"BATC",
+			"LR",
+			"LRN",
+			"batch",
+			"half_total",
+			"__recombie_half_of_total",
 			"max_split_layers",
-			"max_halo_persent",
-			"Glo",
-			"GlobalParam",
-			"layer.Type.",
-			"layer.Type",
-			"layer.L",
-			"layer.",
-			"layer.Layer",
-			"layer.",
-			"GlobalParam",
-			"sort_net",
-			"GlobalParam",
-			"Layer",
-			"Type",
-			"type",
-			"Type",
-			"csv",
-			"layer",
-			"module_s",
-			"chain",
-			"DATA",
-			"DAta",
-			"__recombie_last_layer",
-			">6",
-			"get_layer_by_name",
-			"get_layer_by_idx",
-			"get_layer_by_name",
-			"not implemented now",
-			"__recombie_old_layer",
-			"__split_cnt_calc",
-			"max_split_layers",
-			"check_module",
-			"module_size",
-			"print",
-			"set()",
-			"):\n",
-			"split_layers_cnt",
-			"dfs",
-			"__update_halo",
-			"data_size",
-			"print_result",
-			"split",
-			"3",
-			"calc_halo",
-			"split",
-			"%\n",
-			"calc_halo",
-			"__calc_divide",
-			"__recombine",
-			"split_net",
-			"split",
-			"__cacl_split",
-			"__split_cnt_calc",
-			"split",
-			"halo_percent",
-			"__calc_halo",
-			"halo_percent",
-			"__recombine",
-			"halo_percent",
-			"recombine",
-			"__insert_layer",
-			"insert_layer",
-			"build_net",
-			"stack0",
-			"root",
-			"\"\n",
+			"halo",
+			"split8NetParam",
+			"param_split",
+			"DIVIDEW",
+			"picH",
+			"surround0831",
+			"tileX",
+			"return",
+			"osize,",
+			"part/DIVIDEW",
+			"part%DIVIDEW",
+			"rs",
+			"                \n",
+			"isEdgepart",
+			"on_edge",
+			"[forward],",
+			"2048",
+			"reshape",
+			"RunAll",
+			"cudnnNet",
+			"compare8Part",
+			"splitSurround",
+			"ForwardGPU",
+			"hParam",
+			"surr",
+			"simpleNet",
+			"simpleNetParam",
+			"poolGPU",
+			"fb",
+			"dram",
+			"maxpool",
+			"todo",
+			"MRG",
+			"cudnnTensor4dDescriptor_t",
+			"True",
+			"OTHER",
+			" \n",
+			"self",
+			"memorySize",
+			"b_col",
+			"grid_dim_x",
+			"imGemm147x32",
+			"CRS",
+			"loop",
+			"BIGGemm",
+			"a_ptr",
+			"compute",
 			"suc",
-			"Layers_",
-			"Layers",
-			"suc",
-			"setParam",
-			"setParm",
-			"layers",
-			"Layer",
-			"pad:",
-			"rsuv:",
-			"suc:",
-			"pre:",
-			"nchwkpq:",
-			"type:",
-			"name:",
-			"setParam",
-			"kw",
-			"SplitNet",
-			"splitTest",
-			"% ",
-			"__split_cnt_calc",
-			"__split_cnt_inc",
-			"memory_footprint",
-			"large",
-			"split_layers_cnt",
-			"halo_total",
-			"9",
-			"to",
-			"print",
-			"change",
-			"table",
-			"))]\n",
-			"j",
-			" ",
-			"pos",
-			"to_int",
-			"__is_winograd",
-			"__isWinograd",
-			"memory_footprint",
-			"if",
-			"set",
+			"successor",
+			"son",
+			"predecessor",
+			"nchw",
+			"__syncthreads",
+			"sync",
+			"SB5",
+			"ptr_offsets",
+			"__syncthreads",
+			"c_maskFil",
+			"pq",
+			"c_4filter_offset",
+			"a_offset",
+			"ptr_offsets",
+			"maxpool",
+			"poolGPU",
+			"maxpool",
+			"checkCudaErrors",
+			"poolGPU",
+			"maxpool",
+			"threadIdx",
+			"ckeck",
 			"UV",
 			"compare",
 			" *",
@@ -931,7 +871,38 @@
 			"mask",
 			"c_maskFil",
 			"convolve_launch_float_func",
-			"experimental_sgemm_launch"
+			"experimental_sgemm_launch",
+			"forward_convolution_sm5x",
+			"RunCPU",
+			"convLayer",
+			"CONV",
+			"buildNet",
+			"forward",
+			"simpleNetParam",
+			"RunAll",
+			"param",
+			"conv",
+			"imGemm147x32",
+			"conv",
+			"float",
+			"compare8Part",
+			"compare",
+			"isout",
+			"simpleNetParam",
+			"split8NetParam",
+			"simpleNetParam",
+			"layers_",
+			"copy2CPU",
+			"input_",
+			"splitMode",
+			"splitMode__",
+			"splitMode_",
+			"splitMode",
+			"ConvNum",
+			"convNum",
+			"workSpace_",
+			"print",
+			"dst"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -939,26 +910,21 @@
 		"regex": false,
 		"replace_history":
 		[
-			"cnnlayer.Type.",
-			"cnnlayer.Type",
-			"cnnlayer.",
-			"layer.Type",
-			"insert_layer",
-			"__insert_layer",
-			"list0",
-			"Layers_",
-			"'pad':",
-			"'rsuv':",
-			"'suc':",
-			"'pre':",
-			"'nchwkpq':",
-			"'type':",
-			"'name':",
-			"kwargs",
-			"__split_cnt_calc",
-			"is_winograd",
-			"__is_winograd",
-			"map",
+			"half_max",
+			"max_split_cnt",
+			"laneNet",
+			"hpos",
+			"wpos",
+			"isEdgePart",
+			"isEdgepart",
+			"1024",
+			"memory_size",
+			"'suc'",
+			"suc",
+			"pre",
+			"son",
+			"'predecessor'",
+			"nkqp",
 			"pool",
 			"fp16",
 			"splitMode_",
@@ -1066,12 +1032,17 @@
 			"srca",
 			"adim",
 			"srca",
-			"brf"
+			"brf",
+			"arf",
+			"i",
+			"adim",
+			"mblock",
+			"k"
 		],
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": true,
+		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
@@ -1082,33 +1053,90 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/cygwin/home/alohal/coding/practice/85.py",
+					"file": "/Y/caffe/examples/cifar10/cifar10_full_train_aloha.prototxt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 267,
+						"buffer_size": 3122,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								169,
-								169
+								3122,
+								3122
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 15.0,
+						"translation.y": 4128.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Y/caffe/examples/cifar10/cifar10_full_solver.prototxt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 945,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								782,
+								782
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Y/caffe/examples/cifar10/cifar10_full_train_test.prototxt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								3122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1116,7 +1144,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -1147,17 +1175,17 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 208.0
+		"height": 196.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
-	"project": "coding.sublime-project",
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "caffe.sublime-project",
 	"replace":
 	{
-		"height": 80.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1195,7 +1223,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 128.0,
+	"side_bar_width": 354.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{

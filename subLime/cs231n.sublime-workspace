@@ -519,8 +519,17 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/cygwin/home/alohal/cs231n/assignment1/cs231n/classifiers/linear_svm.py",
+			"settings":
+			{
+				"buffer_size": 3921,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system": "",
 	"build_system_choices":
 	[
 		[
@@ -630,7 +639,10 @@
 	},
 	"expanded_folders":
 	[
-		"/C/cygwin/home/alohal/coding"
+		"/C/cygwin/home/alohal/cs231n",
+		"/C/cygwin/home/alohal/cs231n/assignment1",
+		"/C/cygwin/home/alohal/cs231n/assignment1/cs231n",
+		"/C/cygwin/home/alohal/cs231n/assignment1/cs231n/classifiers"
 	],
 	"file_history":
 	[
@@ -795,6 +807,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"compute_distances_one_loop",
+			"compute_distances_two_loops",
 			"8",
 			"print",
 			"max_split_layers",
@@ -920,9 +934,7 @@
 			"copykernel",
 			"c_maskFil",
 			"mask",
-			"c_maskFil",
-			"convolve_launch_float_func",
-			"experimental_sgemm_launch"
+			"c_maskFil"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1068,14 +1080,46 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/cygwin/home/alohal/cs231n/assignment1/cs231n/classifiers/linear_svm.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1313,
+								1313
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 525.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 33.0
 	},
 	"input":
 	{
@@ -1113,10 +1157,10 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "coding.sublime-project",
+	"project": "cs231n.sublime-project",
 	"replace":
 	{
-		"height": 80.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1154,7 +1198,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 128.0,
+	"side_bar_width": 206.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{

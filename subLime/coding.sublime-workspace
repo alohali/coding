@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"nu",
+				"num_s〔variable〕"
+			],
+			[
+				"num",
+				"nums〔argument〕"
+			],
+			[
+				"re",
+				"return〔keyword〕"
+			],
+			[
+				"le",
+				"left〔argument〕"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"mi",
+				"mid"
+			],
+			[
+				"m",
+				"mid"
+			],
+			[
+				"lef",
+				"left2x"
+			],
+			[
+				"ri",
+				"right〔argument〕"
+			],
+			[
+				"rig",
+				"right_temp〔variable〕"
+			],
+			[
+				"left",
+				"left_temp"
+			],
+			[
+				"righ",
+				"right_temp"
+			],
+			[
+				"bo",
+				"bot〔variable〕"
+			],
+			[
+				"id",
+				"idx〔variable〕"
+			],
+			[
+				"no",
+				"node_len"
+			],
+			[
 				"wor",
 				"wordDict〔argument〕"
 			],
@@ -20,10 +80,6 @@
 				"pow_helper〔function〕"
 			],
 			[
-				"re",
-				"ret"
-			],
-			[
 				"n",
 				"num"
 			],
@@ -38,10 +94,6 @@
 			[
 				"ca",
 				"candidates〔argument〕"
-			],
-			[
-				"num",
-				"nums"
 			],
 			[
 				"find",
@@ -216,10 +268,6 @@
 				"norm1"
 			],
 			[
-				"le",
-				"left"
-			],
-			[
 				"cal",
 				"calc_halo"
 			],
@@ -332,18 +380,6 @@
 				"array"
 			],
 			[
-				"nu",
-				"num1"
-			],
-			[
-				"rig",
-				"right_down"
-			],
-			[
-				"lef",
-				"left_up"
-			],
-			[
 				"wei",
 				"weight_size"
 			],
@@ -354,10 +390,6 @@
 			[
 				"pus",
 				"push"
-			],
-			[
-				"r",
-				"root"
 			],
 			[
 				"ed",
@@ -374,10 +406,6 @@
 			[
 				"uno",
 				"unionSet"
-			],
-			[
-				"id",
-				"idb"
 			],
 			[
 				"new",
@@ -486,39 +514,65 @@
 			[
 				"co",
 				"copy2GPU"
-			],
-			[
-				"odi",
-				"odimFull"
-			],
-			[
-				"dim",
-				"dimM"
-			],
-			[
-				"outp",
-				"outputPart"
-			],
-			[
-				"ful",
-				"fullParam"
-			],
-			[
-				"output",
-				"OutputSize"
-			],
-			[
-				"ru",
-				"RunCPU"
-			],
-			[
-				"fu",
-				"fullNet"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/cygwin/home/alohal/coding/practice/143.py",
+			"settings":
+			{
+				"buffer_size": 1251,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/alohal/coding/practice/148.py",
+			"settings":
+			{
+				"buffer_size": 2502,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/alohal/coding/practice/52.py",
+			"settings":
+			{
+				"buffer_size": 1026,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/alohal/coding/practice/49.py",
+			"settings":
+			{
+				"buffer_size": 602,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/alohal/coding/practice/90.py",
+			"settings":
+			{
+				"buffer_size": 672,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/alohal/coding/practice/179.py",
+			"settings":
+			{
+				"buffer_size": 406,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "class Solution:"
+			}
+		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
@@ -634,6 +688,12 @@
 	],
 	"file_history":
 	[
+		"/C/cygwin/home/alohal/coding/practice/138.cpp",
+		"/Y/cudaopt/test/143.py",
+		"/Y/cudaopt/test/450.py",
+		"/C/cygwin/home/alohal/coding/practice/96.py",
+		"/C/cygwin/home/alohal/coding/practice/42.py",
+		"/C/cygwin/home/alohal/coding/practice/11.py",
 		"/C/cygwin/home/alohal/coding/practice/85.py",
 		"/C/cygwin/home/alohal/coding/practice/139.py",
 		"/C/cygwin/home/alohal/coding/practice/60.py",
@@ -755,13 +815,7 @@
 		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/gpuFunc.hxx",
 		"//shcompute-4/alohal-scratch/cudaopt/share32x8/sharegemm32x8.cu",
 		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/conv2d.py",
-		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/testfp16.py",
-		"//shcompute-4/alohal-scratch/cudaopt/script/conv2d.py",
-		"//shcompute-4/alohal-scratch/cudaopt/script/test2.csv",
-		"//shcompute-4/alohal-scratch/cudaopt/script/autorun.py",
-		"//shcompute-4/alohal-scratch/dittree/sw/gpgpu/MachineLearning/cudnn/src/conv2d_winograd.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/twoshare/testbar.bass",
-		"//shcompute-4/alohal-scratch/cudaopt/test/makefile"
+		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/testfp16.py"
 	],
 	"find":
 	{
@@ -792,9 +846,11 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"fast_sort",
+			"Node",
 			"8",
 			"print",
 			"max_split_layers",
@@ -920,9 +976,7 @@
 			"copykernel",
 			"c_maskFil",
 			"mask",
-			"c_maskFil",
-			"convolve_launch_float_func",
-			"experimental_sgemm_launch"
+			"c_maskFil"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -930,6 +984,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"__quick_sort",
+			"node",
 			"cnnlayer.Type.",
 			"cnnlayer.Type",
 			"cnnlayer.",
@@ -1055,9 +1111,7 @@
 			"rs",
 			"__half",
 			"srca",
-			"adim",
-			"srca",
-			"brf"
+			"adim"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1068,8 +1122,193 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/cygwin/home/alohal/coding/practice/143.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								930,
+								930
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/cygwin/home/alohal/coding/practice/148.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								380
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/cygwin/home/alohal/coding/practice/52.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1026
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/cygwin/home/alohal/coding/practice/49.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								602
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/cygwin/home/alohal/coding/practice/90.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								672
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/cygwin/home/alohal/coding/practice/179.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								370,
+								370
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_name": "class Solution:",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1106,7 +1345,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 208.0
+		"height": 215.0
 	},
 	"output.find_results":
 	{
@@ -1154,7 +1393,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 128.0,
+	"side_bar_width": 224.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{

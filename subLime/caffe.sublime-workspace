@@ -520,27 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "/Y/caffe/examples/cifar10/cifar10_full_train_aloha.prototxt",
+			"file": "/Y/learning/caffe/src/caffe/layers/pooling_layer.cu",
 			"settings":
 			{
-				"buffer_size": 3122,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/Y/caffe/examples/cifar10/cifar10_full_solver.prototxt",
-			"settings":
-			{
-				"buffer_size": 945,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Y/caffe/examples/cifar10/cifar10_full_train_test.prototxt",
-			"settings":
-			{
-				"buffer_size": 3122,
+				"buffer_size": 15436,
 				"line_ending": "Unix"
 			}
 		}
@@ -604,16 +587,51 @@
 	},
 	"expanded_folders":
 	[
-		"/Y/caffe",
-		"/Y/caffe/examples",
-		"/Y/caffe/examples/cifar10",
-		"/Y/caffe/models",
-		"/Y/caffe/models/bvlc_alexnet",
-		"/Y/caffe/models/bvlc_googlenet",
-		"/Y/caffe/models/bvlc_reference_rcnn_ilsvrc13"
+		"/Y/learning/caffe",
+		"/Y/learning/caffe/src",
+		"/Y/learning/caffe/src/caffe",
+		"/Y/learning/caffe/src/caffe/layers"
 	],
 	"file_history":
 	[
+		"/Y/learning/caffe/src/caffe/layers/spp_layer.cpp",
+		"/Y/learning/caffe/src/caffe/layers/batch_norm_layer.cu",
+		"/Y/learning/caffe/include/caffe/layer.hpp",
+		"/Y/learning/caffe/include/caffe/net.hpp",
+		"/Y/learning/caffe/python/surround_0831_all_train_full_prune_abbrev.prototxt",
+		"/Y/learning/caffe/python/caffe/_caffe.cpp",
+		"/Y/learning/caffe/python/detect.py",
+		"/Y/learning/caffe/python/prototype.prototxt",
+		"/Y/learning/caffe/python/caffe/pycaffe.py",
+		"/Y/learning/caffe/python/caffe/io.py",
+		"/Y/learning/caffe/test.py",
+		"/Y/learning/caffe/opencv/OpenCV/opencv-2.4.13/modules/core/include/opencv2/core/core.hpp",
+		"/Y/learning/caffe/include/caffe/blob.hpp",
+		"/Y/learning/caffe/src/caffe/blob.cpp",
+		"/Y/learning/caffe/python/test.py",
+		"/Y/learning/caffe/python/1.log",
+		"/Y/learning/caffe/src/caffe/parallel.cpp",
+		"/Y/learning/caffe/python/caffe/draw.py",
+		"/Y/learning/caffe/python/caffe/detector.py",
+		"/Y/learning/caffe/python/1.txt",
+		"/Y/learning/caffe/python/freespace_fifthV_deploy.prototxt",
+		"/Y/learning/caffe/python/caffe/test.py",
+		"/Y/learning/caffe/src/caffe/common.cpp",
+		"/Y/learning/caffe/include/caffe/common.hpp",
+		"/Y/learning/caffe/tools/caffe.cpp",
+		"/Y/learning/caffe/src/caffe/net.cpp",
+		"/Y/learning/caffe/python/caffe/imagenet/ilsvrc_2012_mean.npy",
+		"/Y/learning/caffe/src/caffe/syncedmem.cpp",
+		"/Y/learning/caffe/src/caffe/test/test_split_layer.cpp",
+		"/Y/learning/caffe/src/caffe/layers/split_layer.cpp",
+		"/Y/learning/caffe/src/caffe/solver.cpp",
+		"/Y/learning/caffe/src/caffe/solvers/sgd_solver.cpp",
+		"/Y/learning/caffe/include/caffe/sgd_solvers.hpp",
+		"/Y/learning/caffe/src/caffe/solvers/nesterov_solver.cpp",
+		"/Y/learning/caffe/python/classify.py",
+		"/C/cygwin/home/alohal/coding/subLime/caffe.sublime-project",
+		"/Y/caffe/examples/cifar10/cifar10_full_train_aloha.prototxt",
+		"/Y/caffe/examples/cifar10/cifar10_full_train_test.prototxt",
 		"/Y/caffe/examples/cifar10/cifar10_full_solver_lr1.prototxt",
 		"/Y/caffe/examples/cifar10/cifar10_full_solver_lr2.prototxt",
 		"/Y/caffe/examples/cifar10/cifar10_quick.prototxt",
@@ -703,45 +721,7 @@
 		"/Y/cudaopt/usefulCode/cudnn-training-master/softmax.cu",
 		"/Y/cudaopt/usefulCode/cudnn-training-master/readubyte.cpp",
 		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/build-cuda-8.0/drivepx2/winograd/release/fp32im.sass",
-		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/build-cuda-8.0/drivepx2/winograd/release/fp16im.sass",
-		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/imGemmKernel.hxx",
-		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/cpuFunc.hxx",
-		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/a.sass",
-		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/4.sass",
-		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/implicit gemm/conv2d_experimental_gemm.hxx",
-		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/implicit gemm/conv2d_experimental_sgemm.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/1.sass",
-		"/Y/dittree/sw/gpgpu/MachineLearning/cudnn/src/conv2d_implicit_sgemm_kernel.hxx",
-		"//shcompute-4/alohal-scratch/cudaopt/smallNGemm/smallNgemm.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/test.py",
-		"//shcompute-4/alohal-scratch/cudaopt/script/test.py",
-		"//shcompute-4/alohal-scratch/cudaopt/script/occu.py",
-		"//shcompute-4/alohal-scratch/cudaopt/smallNGemm/gemv",
-		"//shcompute-4/alohal-scratch/cudaopt/smallNGemm/256x1.sass",
-		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/util.h",
-		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/implicit gemm/conv2d_experimental_sgemm_kernel.hxx",
-		"//shcompute-4/alohal-scratch/cudaopt/smallNGemm/half.hxx",
-		"//shcompute-4/alohal-scratch/cudaopt/smallNGemm/128x1.sass",
-		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/imGemm.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/twoshare/gemm128x32.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/biggemm/biggemm.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/script/testfp16.py",
-		"//shcompute-4/alohal-scratch/cudaopt/script/nvhelnet.csv",
-		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/implicit gemm/conv2d.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/implicit gemm/imGemmKernel.hxx",
-		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/gpuFunc.hxx",
-		"//shcompute-4/alohal-scratch/cudaopt/share32x8/sharegemm32x8.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/conv2d.py",
-		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/testfp16.py",
-		"//shcompute-4/alohal-scratch/cudaopt/script/conv2d.py",
-		"//shcompute-4/alohal-scratch/cudaopt/script/test2.csv",
-		"//shcompute-4/alohal-scratch/cudaopt/script/autorun.py",
-		"//shcompute-4/alohal-scratch/dittree/sw/gpgpu/MachineLearning/cudnn/src/conv2d_winograd.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/twoshare/testbar.bass",
-		"//shcompute-4/alohal-scratch/cudaopt/test/makefile",
-		"//shcompute-4/alohal-scratch/cudaopt/test/textest.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/akerr-sgemm/dev-gemm.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/akerr-sgemm/gemm-fast.hpp"
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/build-cuda-8.0/drivepx2/winograd/release/fp16im.sass"
 	],
 	"find":
 	{
@@ -752,6 +732,7 @@
 		"height": 117.0,
 		"where_history":
 		[
+			"*.cpp,*.h,*.cu,*.hpp,*.hxx,*.py",
 			"*.cpp,*.h,*.cu,*.hpp,*.hxx",
 			"*.cpp,*.h,*.cu,*.hpp",
 			"C:\\Users\\alohal\\alohal_ALOHAL-LT_5316\\alohal_ALOHAL-LT_5316\\sw\\gpgpu\\MachineLearning\\DIT\\trunk",
@@ -775,6 +756,44 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"roi",
+			"reshape",
+			"Convolution",
+			"layers",
+			"Layer",
+			"_backward",
+			"_Net_backward",
+			"_backward",
+			"_Net_batch",
+			"forward_all",
+			"forward",
+			"root_solver_",
+			"set_root_solver",
+			"net",
+			"root_net_",
+			"ComputeUpdateValue",
+			"ApplyUpdate",
+			"solver",
+			"SGDSolver",
+			"Classifier",
+			"update",
+			"TRAIN",
+			"phase_",
+			"get_phase_from_flags",
+			"phase",
+			"RegisterBrewFunction",
+			"phase",
+			"TRAIN",
+			"_Net_blobs",
+			"PY.*SO",
+			"PY.*",
+			"PY.*SO",
+			"PROTO_GEN_PY",
+			"py",
+			"caffe",
+			"all",
+			"Net",
+			"_Net_blobs",
 			"BatchNorm",
 			"lrn",
 			"BATC",
@@ -864,50 +883,12 @@
 			"testcopy",
 			"batchsize",
 			"copykernel",
-			"copy_kernel_launcher",
-			"GP10B",
-			"copykernel",
-			"c_maskFil",
-			"mask",
-			"c_maskFil",
-			"convolve_launch_float_func",
-			"experimental_sgemm_launch",
-			"forward_convolution_sm5x",
-			"RunCPU",
-			"convLayer",
-			"CONV",
-			"buildNet",
-			"forward",
-			"simpleNetParam",
-			"RunAll",
-			"param",
-			"conv",
-			"imGemm147x32",
-			"conv",
-			"float",
-			"compare8Part",
-			"compare",
-			"isout",
-			"simpleNetParam",
-			"split8NetParam",
-			"simpleNetParam",
-			"layers_",
-			"copy2CPU",
-			"input_",
-			"splitMode",
-			"splitMode__",
-			"splitMode_",
-			"splitMode",
-			"ConvNum",
-			"convNum",
-			"workSpace_",
-			"print",
-			"dst"
+			"copy_kernel_launcher"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 			"half_max",
@@ -1053,82 +1034,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Y/caffe/examples/cifar10/cifar10_full_train_aloha.prototxt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3122,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3122,
-								3122
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4128.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Y/caffe/examples/cifar10/cifar10_full_solver.prototxt",
+					"file": "/Y/learning/caffe/src/caffe/layers/pooling_layer.cu",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 945,
+						"buffer_size": 15436,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								782,
-								782
+								1092,
+								1092
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Y/caffe/examples/cifar10/cifar10_full_train_test.prototxt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3122,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								3122
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/CUDA C++/cuda-c++.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1136,7 +1059,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

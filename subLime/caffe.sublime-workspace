@@ -520,10 +520,50 @@
 	"buffers":
 	[
 		{
-			"file": "/Y/learning/caffe/src/caffe/layers/pooling_layer.cu",
+			"file": "/Y/learning/caffe/src/caffe/layers/spp_layer.cpp",
 			"settings":
 			{
-				"buffer_size": 15436,
+				"buffer_size": 8104,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/learning/caffe/src/caffe/layers/concat_layer.cpp",
+			"settings":
+			{
+				"buffer_size": 3995,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/learning/caffe/src/caffe/layers/flatten_layer.cpp",
+			"settings":
+			{
+				"buffer_size": 1436,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/learning/caffe/include/caffe/layers/flatten_layer.hpp",
+			"settings":
+			{
+				"buffer_size": 2103,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/learning/caffe/include/caffe/layer.hpp",
+			"settings":
+			{
+				"buffer_size": 18495,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/learning/caffe/src/caffe/layers/split_layer.cpp",
+			"settings":
+			{
+				"buffer_size": 1913,
 				"line_ending": "Unix"
 			}
 		}
@@ -588,16 +628,40 @@
 	"expanded_folders":
 	[
 		"/Y/learning/caffe",
-		"/Y/learning/caffe/src",
-		"/Y/learning/caffe/src/caffe",
-		"/Y/learning/caffe/src/caffe/layers"
+		"/Y/learning/caffe/python",
+		"/Y/learning/caffe/python/caffe",
+		"/Y/learning/caffe/python/caffe/test"
 	],
 	"file_history":
 	[
-		"/Y/learning/caffe/src/caffe/layers/spp_layer.cpp",
-		"/Y/learning/caffe/src/caffe/layers/batch_norm_layer.cu",
+		"/Y/learning/caffe/src/caffe/test/test_spp_layer.cpp",
+		"/Y/learning/caffe/src/caffe/solver.cpp",
+		"/Y/learning/caffe/src/caffe/layers/cudnn_pooling_layer.cu",
+		"/Y/learning/caffe/include/caffe/test/test_caffe_main.hpp",
+		"/Y/learning/caffe/opencv/OpenCV/opencv-2.4.13/platforms/android/service/engine/jni/Tests/gtest/gtest.h",
 		"/Y/learning/caffe/include/caffe/layer.hpp",
+		"/Y/learning/caffe/protoc/protobuf-2.5.0/gtest/include/gtest/gtest.h",
+		"/Y/learning/caffe/include/caffe/layers/spp_layer.hpp",
+		"/Y/learning/caffe/include/caffe/blob.hpp",
+		"/Y/learning/caffe/include/caffe/layers/flatten_layer.hpp",
+		"/Y/learning/caffe/src/caffe/layers/batch_norm_layer.cu",
+		"/Y/learning/caffe/src/caffe/proto/caffe.proto",
+		"/Y/learning/caffe/include/caffe/layers/concat_layer.hpp",
+		"/Y/learning/caffe/src/caffe/blob.cpp",
+		"/Y/learning/caffe/src/caffe/syncedmem.cpp",
+		"/Y/learning/caffe/include/caffe/common.hpp",
+		"/Y/learning/caffe/include/caffe/layers/conv_layer.hpp",
+		"/Y/learning/caffe/include/caffe/layers/base_conv_layer.hpp",
+		"/Y/learning/caffe/src/caffe/layer_factory.cpp",
+		"/Y/learning/caffe/include/caffe/layer_factory.hpp",
 		"/Y/learning/caffe/include/caffe/net.hpp",
+		"/Y/learning/caffe/src/caffe/layers/base_conv_layer.cpp",
+		"/Y/learning/caffe/src/caffe/net.cpp",
+		"/Y/learning/caffe/include/caffe/layers/relu_layer.hpp",
+		"/Y/learning/caffe/include/caffe/layers/neuron_layer.hpp",
+		"/Y/learning/caffe/src/caffe/layers/neuron_layer.cpp",
+		"/Y/learning/caffe/src/caffe/util/math_functions.cpp",
+		"/Y/learning/caffe/src/caffe/layers/spp_layer.cpp",
 		"/Y/learning/caffe/python/surround_0831_all_train_full_prune_abbrev.prototxt",
 		"/Y/learning/caffe/python/caffe/_caffe.cpp",
 		"/Y/learning/caffe/python/detect.py",
@@ -606,8 +670,6 @@
 		"/Y/learning/caffe/python/caffe/io.py",
 		"/Y/learning/caffe/test.py",
 		"/Y/learning/caffe/opencv/OpenCV/opencv-2.4.13/modules/core/include/opencv2/core/core.hpp",
-		"/Y/learning/caffe/include/caffe/blob.hpp",
-		"/Y/learning/caffe/src/caffe/blob.cpp",
 		"/Y/learning/caffe/python/test.py",
 		"/Y/learning/caffe/python/1.log",
 		"/Y/learning/caffe/src/caffe/parallel.cpp",
@@ -617,14 +679,10 @@
 		"/Y/learning/caffe/python/freespace_fifthV_deploy.prototxt",
 		"/Y/learning/caffe/python/caffe/test.py",
 		"/Y/learning/caffe/src/caffe/common.cpp",
-		"/Y/learning/caffe/include/caffe/common.hpp",
 		"/Y/learning/caffe/tools/caffe.cpp",
-		"/Y/learning/caffe/src/caffe/net.cpp",
 		"/Y/learning/caffe/python/caffe/imagenet/ilsvrc_2012_mean.npy",
-		"/Y/learning/caffe/src/caffe/syncedmem.cpp",
 		"/Y/learning/caffe/src/caffe/test/test_split_layer.cpp",
 		"/Y/learning/caffe/src/caffe/layers/split_layer.cpp",
-		"/Y/learning/caffe/src/caffe/solver.cpp",
 		"/Y/learning/caffe/src/caffe/solvers/sgd_solver.cpp",
 		"/Y/learning/caffe/include/caffe/sgd_solvers.hpp",
 		"/Y/learning/caffe/src/caffe/solvers/nesterov_solver.cpp",
@@ -703,25 +761,7 @@
 		"/Y/cudaopt/test/test.cu",
 		"/Y/cudaopt/script/parsecsv.py",
 		"/Y/cudaopt/pooling/util.h",
-		"/Y/cudaopt/implicitGEMM/imGemm.hxx",
-		"/Y/cudaopt/cudnnTest/lenet.cu",
-		"/Y/cudaopt/implicitGEMM/makefile",
-		"/Y/cudaopt/implicitGEMM/cpuFunc.hxx",
-		"/Y/cudaopt/cudnnTest/cpuFunc.hxx",
-		"/Y/cudaopt/script/driveNetNVPDM.txt",
-		"/Y/cudaopt/script/NVHelNetNVPDM.txt",
-		"/Y/cudaopt/usefulCode/cudnn-training-master/lenet.cu",
-		"/Y/cudaopt/cudnnTest/util.h",
-		"/Y/cudaopt/cudnnTest/layers.cu",
-		"/Y/cudaopt/usefulCode/cudnn-training-master/makefile",
-		"/Y/cudaopt/usefulCode/cudnn-training-master/splitnet.cu",
-		"/Y/cudaopt/pooling/cpuFunc.hxx",
-		"/Y/cudaopt/pooling/pool.cu",
-		"/Y/cudaopt/script/gietest.py",
-		"/Y/cudaopt/usefulCode/cudnn-training-master/softmax.cu",
-		"/Y/cudaopt/usefulCode/cudnn-training-master/readubyte.cpp",
-		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/build-cuda-8.0/drivepx2/winograd/release/fp32im.sass",
-		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/build-cuda-8.0/drivepx2/winograd/release/fp16im.sass"
+		"/Y/cudaopt/implicitGEMM/imGemm.hxx"
 	],
 	"find":
 	{
@@ -756,6 +796,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"itSize",
+			"solve",
+			"clear",
+			"solve",
+			"ConcatParameter",
+			"layerP",
+			"num_concats_",
+			"SetUp",
+			"AppendTop",
+			"AppendBottom",
+			"bottom_vecs_",
+			"forward_cpu_gemm",
+			"private",
+			"LayerSetUp",
+			"create",
+			"AppendTop",
+			"weight",
+			"forward",
+			".\n",
+			"shape_data_",
 			"roi",
 			"reshape",
 			"Convolution",
@@ -863,32 +923,12 @@
 			"c_maskFil",
 			"pq",
 			"c_4filter_offset",
-			"a_offset",
-			"ptr_offsets",
-			"maxpool",
-			"poolGPU",
-			"maxpool",
-			"checkCudaErrors",
-			"poolGPU",
-			"maxpool",
-			"threadIdx",
-			"ckeck",
-			"UV",
-			"compare",
-			" *",
-			"gemm",
-			"gemmGPU",
-			"* ",
-			"twoshare1283",
-			"testcopy",
-			"batchsize",
-			"copykernel",
-			"copy_kernel_launcher"
+			"a_offset"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 			"half_max",
@@ -1029,29 +1069,59 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Y/learning/caffe/src/caffe/layers/pooling_layer.cu",
-					"semi_transient": true,
+					"file": "/Y/learning/caffe/src/caffe/layers/spp_layer.cpp",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15436,
+						"buffer_size": 8104,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1092,
-								1092
+								7197,
+								7197
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CUDA C++/cuda-c++.tmLanguage",
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4425.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Y/learning/caffe/src/caffe/layers/concat_layer.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3995,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3271,
+								3271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1061,13 +1131,133 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Y/learning/caffe/src/caffe/layers/flatten_layer.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Y/learning/caffe/include/caffe/layers/flatten_layer.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								722,
+								722
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 116.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Y/learning/caffe/include/caffe/layer.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18495,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5544,
+								5544
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3316.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Y/learning/caffe/src/caffe/layers/split_layer.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								939,
+								939
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 33.0
 	},
 	"input":
 	{
@@ -1108,7 +1298,7 @@
 	"project": "caffe.sublime-project",
 	"replace":
 	{
-		"height": 60.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1146,7 +1336,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 354.0,
+	"side_bar_width": 342.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"temp",
+				"template"
+			],
+			[
 				"lay",
 				"layer"
 			],
@@ -510,60 +514,91 @@
 			[
 				"we",
 				"weightSize"
-			],
-			[
-				"sz",
-				"size_t"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "/Y/learning/caffe/include/caffe/test/test_caffe_main.hpp",
+			"settings":
+			{
+				"buffer_size": 1738,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/learning/caffe/src/caffe/test/test_caffe_main.cpp",
+			"settings":
+			{
+				"buffer_size": 1094,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/learning/caffe/src/caffe/test/test_spp_layer.cpp",
+			"settings":
+			{
+				"buffer_size": 4816,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/learning/caffe/src/caffe/test/test_deconvolution_layer.cpp",
+			"settings":
+			{
+				"buffer_size": 12161,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/learning/caffe/python/test.py",
+			"settings":
+			{
+				"buffer_size": 1553,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/learning/caffe/src/caffe/test/test_new.cpp",
+			"settings":
+			{
+				"buffer_size": 3408,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Y/learning/caffe/src/caffe/test/alohal_cpuref.h",
+			"settings":
+			{
+				"buffer_size": 3206,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Y/learning/caffe/src/caffe/syncedmem.cpp",
+			"settings":
+			{
+				"buffer_size": 3310,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/learning/caffe/src/caffe/blob.cpp",
+			"settings":
+			{
+				"buffer_size": 14001,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/Y/learning/caffe/src/caffe/layers/spp_layer.cpp",
 			"settings":
 			{
 				"buffer_size": 8104,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Y/learning/caffe/src/caffe/layers/concat_layer.cpp",
-			"settings":
-			{
-				"buffer_size": 3995,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Y/learning/caffe/src/caffe/layers/flatten_layer.cpp",
-			"settings":
-			{
-				"buffer_size": 1436,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Y/learning/caffe/include/caffe/layers/flatten_layer.hpp",
-			"settings":
-			{
-				"buffer_size": 2103,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Y/learning/caffe/include/caffe/layer.hpp",
-			"settings":
-			{
-				"buffer_size": 18495,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Y/learning/caffe/src/caffe/layers/split_layer.cpp",
-			"settings":
-			{
-				"buffer_size": 1913,
 				"line_ending": "Unix"
 			}
 		}
@@ -628,40 +663,58 @@
 	"expanded_folders":
 	[
 		"/Y/learning/caffe",
-		"/Y/learning/caffe/python",
 		"/Y/learning/caffe/python/caffe",
-		"/Y/learning/caffe/python/caffe/test"
+		"/Y/learning/caffe/python/caffe/test",
+		"/Y/learning/caffe/src",
+		"/Y/learning/caffe/src/caffe"
 	],
 	"file_history":
 	[
-		"/Y/learning/caffe/src/caffe/test/test_spp_layer.cpp",
+		"/Y/learning/caffe/include/caffe/layers/flatten_layer.hpp",
+		"/Y/learning/caffe/src/caffe/layers/flatten_layer.cpp",
+		"/Y/learning/caffe/include/caffe/test/test_gradient_check_util.hpp",
+		"/Y/learning/caffe/include/caffe/syncedmem.hpp",
+		"/Y/learning/caffe/include/caffe/blob.hpp",
+		"/Y/learning/caffe/python/testspp.py",
+		"/Y/learning/caffe/include/caffe/filler.hpp",
+		"/Y/learning/caffe/src/caffe/layers/split_layer.cpp",
+		"/Y/learning/caffe/include/caffe/layer.hpp",
+		"/Y/learning/caffe/include/caffe/internal_thread.hpp",
+		"/Y/learning/caffe/include/caffe/util/device_alternate.hpp",
+		"/Y/learning/caffe/src/caffe/layers/concat_layer.cpp",
+		"/Y/learning/caffe/protoc/protobuf-2.5.0/gtest/include/gtest/gtest.h",
+		"/Y/learning/caffe/src/gtest/gtest.h",
+		"/Y/learning/caffe/src/caffe/layers/spp_layer.cpp",
+		"/Y/learning/caffe/src/caffe/parallel.cpp",
 		"/Y/learning/caffe/src/caffe/solver.cpp",
+		"/Y/learning/caffe/src/caffe/internal_thread.cpp",
+		"/Y/learning/caffe/src/caffe/layers/pooling_layer.cpp",
+		"/Y/learning/caffe/src/caffe/layers/conv_layer.cpp",
+		"/Y/learning/caffe/include/caffe/parallel.hpp",
+		"/Y/learning/caffe/include/caffe/common.hpp",
+		"/Y/learning/caffe/tools/caffe.cpp",
+		"/Y/learning/caffe/include/caffe/net.hpp",
+		"/Y/learning/caffe/include/caffe/data_reader.hpp",
+		"/Y/learning/caffe/src/caffe/test/test_spp_layer.cpp",
 		"/Y/learning/caffe/src/caffe/layers/cudnn_pooling_layer.cu",
 		"/Y/learning/caffe/include/caffe/test/test_caffe_main.hpp",
 		"/Y/learning/caffe/opencv/OpenCV/opencv-2.4.13/platforms/android/service/engine/jni/Tests/gtest/gtest.h",
-		"/Y/learning/caffe/include/caffe/layer.hpp",
-		"/Y/learning/caffe/protoc/protobuf-2.5.0/gtest/include/gtest/gtest.h",
 		"/Y/learning/caffe/include/caffe/layers/spp_layer.hpp",
-		"/Y/learning/caffe/include/caffe/blob.hpp",
-		"/Y/learning/caffe/include/caffe/layers/flatten_layer.hpp",
 		"/Y/learning/caffe/src/caffe/layers/batch_norm_layer.cu",
 		"/Y/learning/caffe/src/caffe/proto/caffe.proto",
 		"/Y/learning/caffe/include/caffe/layers/concat_layer.hpp",
 		"/Y/learning/caffe/src/caffe/blob.cpp",
 		"/Y/learning/caffe/src/caffe/syncedmem.cpp",
-		"/Y/learning/caffe/include/caffe/common.hpp",
 		"/Y/learning/caffe/include/caffe/layers/conv_layer.hpp",
 		"/Y/learning/caffe/include/caffe/layers/base_conv_layer.hpp",
 		"/Y/learning/caffe/src/caffe/layer_factory.cpp",
 		"/Y/learning/caffe/include/caffe/layer_factory.hpp",
-		"/Y/learning/caffe/include/caffe/net.hpp",
 		"/Y/learning/caffe/src/caffe/layers/base_conv_layer.cpp",
 		"/Y/learning/caffe/src/caffe/net.cpp",
 		"/Y/learning/caffe/include/caffe/layers/relu_layer.hpp",
 		"/Y/learning/caffe/include/caffe/layers/neuron_layer.hpp",
 		"/Y/learning/caffe/src/caffe/layers/neuron_layer.cpp",
 		"/Y/learning/caffe/src/caffe/util/math_functions.cpp",
-		"/Y/learning/caffe/src/caffe/layers/spp_layer.cpp",
 		"/Y/learning/caffe/python/surround_0831_all_train_full_prune_abbrev.prototxt",
 		"/Y/learning/caffe/python/caffe/_caffe.cpp",
 		"/Y/learning/caffe/python/detect.py",
@@ -672,17 +725,14 @@
 		"/Y/learning/caffe/opencv/OpenCV/opencv-2.4.13/modules/core/include/opencv2/core/core.hpp",
 		"/Y/learning/caffe/python/test.py",
 		"/Y/learning/caffe/python/1.log",
-		"/Y/learning/caffe/src/caffe/parallel.cpp",
 		"/Y/learning/caffe/python/caffe/draw.py",
 		"/Y/learning/caffe/python/caffe/detector.py",
 		"/Y/learning/caffe/python/1.txt",
 		"/Y/learning/caffe/python/freespace_fifthV_deploy.prototxt",
 		"/Y/learning/caffe/python/caffe/test.py",
 		"/Y/learning/caffe/src/caffe/common.cpp",
-		"/Y/learning/caffe/tools/caffe.cpp",
 		"/Y/learning/caffe/python/caffe/imagenet/ilsvrc_2012_mean.npy",
 		"/Y/learning/caffe/src/caffe/test/test_split_layer.cpp",
-		"/Y/learning/caffe/src/caffe/layers/split_layer.cpp",
 		"/Y/learning/caffe/src/caffe/solvers/sgd_solver.cpp",
 		"/Y/learning/caffe/include/caffe/sgd_solvers.hpp",
 		"/Y/learning/caffe/src/caffe/solvers/nesterov_solver.cpp",
@@ -747,21 +797,7 @@
 		"/Y/cudaopt/cudnnTest/3.txt",
 		"/Y/cudaopt/cudnnTest/2.txt",
 		"/Y/cudaopt/cudnnTest/4.txt",
-		"/Y/cudaopt/cudnnTest/1.csv",
-		"/Y/cudaopt/cudnnTest/a.csv",
-		"/Y/cudaopt/cudnnTest/all.csv",
-		"/Y/cudaopt/cudnnTest/all2.csv",
-		"/Y/cudaopt/cudnnTest/all3.csv",
-		"/Y/cudaopt/cudnnTest/12.csv",
-		"/Y/cudaopt/cudnnTest/123.csv",
-		"/Y/cudaopt/split.txt",
-		"/Y/cudaopt/cudnnTest/cudnn.h",
-		"/Y/cudaopt/script/autorun.py",
-		"/Y/cudaopt/test/lrn.sass",
-		"/Y/cudaopt/test/test.cu",
-		"/Y/cudaopt/script/parsecsv.py",
-		"/Y/cudaopt/pooling/util.h",
-		"/Y/cudaopt/implicitGEMM/imGemm.hxx"
+		"/Y/cudaopt/cudnnTest/1.csv"
 	],
 	"find":
 	{
@@ -796,6 +832,33 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"max",
+			"GetPoolingParam",
+			"forward",
+			"GetPoolingParam",
+			"in->",
+			"test_parameter",
+			"parameter_net_file",
+			"ParameterLayer",
+			"TEST_SRCS",
+			"test_all",
+			"TEST_ALL_BIN",
+			"test:",
+			"TOOL_BUILD_DIR",
+			"test",
+			"SetUp",
+			"Fill",
+			"main",
+			"SPPLayerTest",
+			"main",
+			"heig",
+			"pooled_height_",
+			"height",
+			"InternalThreadEntry",
+			"P2PSync",
+			"InternalThreadEntry",
+			"InternalThread",
+			"CUDA_POST_KERNEL",
 			"itSize",
 			"solve",
 			"clear",
@@ -896,34 +959,7 @@
 			"maxpool",
 			"todo",
 			"MRG",
-			"cudnnTensor4dDescriptor_t",
-			"True",
-			"OTHER",
-			" \n",
-			"self",
-			"memorySize",
-			"b_col",
-			"grid_dim_x",
-			"imGemm147x32",
-			"CRS",
-			"loop",
-			"BIGGemm",
-			"a_ptr",
-			"compute",
-			"suc",
-			"successor",
-			"son",
-			"predecessor",
-			"nchw",
-			"__syncthreads",
-			"sync",
-			"SB5",
-			"ptr_offsets",
-			"__syncthreads",
-			"c_maskFil",
-			"pq",
-			"c_4filter_offset",
-			"a_offset"
+			"cudnnTensor4dDescriptor_t"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -931,6 +967,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"out->",
 			"half_max",
 			"max_split_cnt",
 			"laneNet",
@@ -1057,8 +1094,7 @@
 			"arf",
 			"i",
 			"adim",
-			"mblock",
-			"k"
+			"mblock"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1069,11 +1105,281 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "/Y/learning/caffe/include/caffe/test/test_caffe_main.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								562,
+								562
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 150.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Y/learning/caffe/src/caffe/test/test_caffe_main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1085,
+								1085
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Y/learning/caffe/src/caffe/test/test_spp_layer.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								567,
+								567
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2550.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Y/learning/caffe/src/caffe/test/test_deconvolution_layer.cpp",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 12161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5033,
+								4958
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2700.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Y/learning/caffe/python/test.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1553,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								361,
+								361
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 75.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Y/learning/caffe/src/caffe/test/test_new.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3408,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2291,
+								2291
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1050.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Y/learning/caffe/src/caffe/test/alohal_cpuref.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 150.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Y/learning/caffe/src/caffe/syncedmem.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2584,
+								2600
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1666.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Y/learning/caffe/src/caffe/blob.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3462,
+								3462
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3010.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
 					"file": "/Y/learning/caffe/src/caffe/layers/spp_layer.cpp",
 					"semi_transient": false,
 					"settings":
@@ -1085,38 +1391,8 @@
 						"selection":
 						[
 							[
-								7197,
-								7197
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4425.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Y/learning/caffe/src/caffe/layers/concat_layer.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3995,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3271,
-								3271
+								321,
+								289
 							]
 						],
 						"settings":
@@ -1129,127 +1405,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Y/learning/caffe/src/caffe/layers/flatten_layer.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1436,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								118,
-								118
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 300.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Y/learning/caffe/include/caffe/layers/flatten_layer.hpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2103,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								722,
-								722
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 116.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Y/learning/caffe/include/caffe/layer.hpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 18495,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5544,
-								5544
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3316.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/Y/learning/caffe/src/caffe/layers/split_layer.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1913,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								939,
-								939
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1298,7 +1454,7 @@
 	"project": "caffe.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 80.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -4,8 +4,44 @@
 		"selected_items":
 		[
 			[
+				"do",
+				"dot_cnt"
+			],
+			[
+				"in",
+				"Interval"
+			],
+			[
+				"pu",
+				"push_back"
+			],
+			[
+				"ins",
+				"intervals"
+			],
+			[
+				"int",
+				"intervals"
+			],
+			[
+				"ne",
+				"need1〔variable〕"
+			],
+			[
 				"max",
-				"maxvalue〔argument〕"
+				"maxleft〔variable〕"
+			],
+			[
+				"ret",
+				"return〔keyword〕"
+			],
+			[
+				"id",
+				"idxs〔argument〕"
+			],
+			[
+				"s",
+				"self"
 			],
 			[
 				"nus",
@@ -34,10 +70,6 @@
 			[
 				"las",
 				"last_len〔variable〕"
-			],
-			[
-				"ret",
-				"ret〔variable〕"
 			],
 			[
 				"ob",
@@ -92,10 +124,6 @@
 				"bot〔variable〕"
 			],
 			[
-				"id",
-				"idx〔variable〕"
-			],
-			[
 				"no",
 				"node_len"
 			],
@@ -134,10 +162,6 @@
 			[
 				"find",
 				"find_num"
-			],
-			[
-				"ne",
-				"nextWord〔variable〕"
 			],
 			[
 				"en",
@@ -320,10 +344,6 @@
 				"layer_map"
 			],
 			[
-				"s",
-				"sorted_layers〔variable〕"
-			],
-			[
 				"em",
 				"empty〔function〕"
 			],
@@ -494,53 +514,16 @@
 			[
 				"siz",
 				"sizeof"
-			],
-			[
-				"offset",
-				"memOffset"
-			],
-			[
-				"para",
-				"param"
-			],
-			[
-				"outw",
-				"out_w"
-			],
-			[
-				"G",
-				"gm200"
-			],
-			[
-				"Sp",
-				"splitMode"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/cygwin/home/alohal/coding/practice/91.py",
+			"file": "/Y/learning/pytorch/tutorial/113.cpp",
 			"settings":
 			{
-				"buffer_size": 847,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/cygwin/home/alohal/coding/practice/maxBag.py",
-			"settings":
-			{
-				"buffer_size": 694,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/cygwin/home/alohal/coding/practice/115.cpp",
-			"settings":
-			{
-				"buffer_size": 529,
+				"buffer_size": 824,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -660,6 +643,15 @@
 	],
 	"file_history":
 	[
+		"/C/cygwin/home/alohal/coding/practice/71.cpp",
+		"/C/cygwin/home/alohal/coding/practice/109.cpp",
+		"/C/cygwin/home/alohal/coding/practice/75.cpp",
+		"/C/cygwin/home/alohal/coding/practice/57.cpp",
+		"/C/cygwin/home/alohal/coding/practice/174.py",
+		"/C/cygwin/home/alohal/coding/practice/140.py",
+		"/C/cygwin/home/alohal/coding/practice/60.cpp",
+		"/C/cygwin/home/alohal/coding/practice/91.py",
+		"/C/cygwin/home/alohal/coding/practice/115.cpp",
 		"/C/cygwin/home/alohal/coding/practice/maxBag.py",
 		"/C/cygwin/home/alohal/coding/practice/32.py",
 		"/C/cygwin/home/alohal/coding/practice/18.py",
@@ -778,16 +770,7 @@
 		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/implicit gemm/conv2d_experimental_gemm.hxx",
 		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/implicit gemm/conv2d_experimental_sgemm.cu",
 		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/1.sass",
-		"/Y/dittree/sw/gpgpu/MachineLearning/cudnn/src/conv2d_implicit_sgemm_kernel.hxx",
-		"//shcompute-4/alohal-scratch/cudaopt/smallNGemm/smallNgemm.cu",
-		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/test.py",
-		"//shcompute-4/alohal-scratch/cudaopt/script/test.py",
-		"//shcompute-4/alohal-scratch/cudaopt/script/occu.py",
-		"//shcompute-4/alohal-scratch/cudaopt/smallNGemm/gemv",
-		"//shcompute-4/alohal-scratch/cudaopt/smallNGemm/256x1.sass",
-		"//shcompute-4/alohal-scratch/cudaopt/implicitGEMM/util.h",
-		"//shcompute-4/alohal-scratch/cudaopt/usefulCode/implicit gemm/conv2d_experimental_sgemm_kernel.hxx",
-		"//shcompute-4/alohal-scratch/cudaopt/smallNGemm/half.hxx"
+		"/Y/dittree/sw/gpgpu/MachineLearning/cudnn/src/conv2d_implicit_sgemm_kernel.hxx"
 	],
 	"find":
 	{
@@ -821,6 +804,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"root.",
+			"dp",
 			"len(a2)",
 			"len(a1)",
 			"(\"()(())\")",
@@ -946,9 +931,7 @@
 			"testcopy",
 			"batchsize",
 			"copykernel",
-			"copy_kernel_launcher",
-			"GP10B",
-			"copykernel"
+			"copy_kernel_launcher"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -956,6 +939,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"root->",
+			"maxleft",
 			"self.m",
 			"self.n",
 			"__quick_sort",
@@ -1081,9 +1066,7 @@
 			"32",
 			"blockIdx.x",
 			"CRS",
-			"7",
-			"rs",
-			"__half"
+			"7"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1094,85 +1077,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/cygwin/home/alohal/coding/practice/91.py",
+					"file": "/Y/learning/pytorch/tutorial/113.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 847,
+						"buffer_size": 824,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								765,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/cygwin/home/alohal/coding/practice/maxBag.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 694,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								174,
-								174
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/cygwin/home/alohal/coding/practice/115.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 529,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								529,
-								529
+								0,
+								824
 							]
 						],
 						"settings":

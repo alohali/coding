@@ -1,0 +1,1648 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cstr",
+				"c_str"
+			],
+			[
+				"num",
+				"num_bins"
+			],
+			[
+				"pr",
+				"pyramid_height"
+			],
+			[
+				"kern",
+				"kernel_w"
+			],
+			[
+				"ker",
+				"kernel_h"
+			],
+			[
+				"ret",
+				"ret"
+			],
+			[
+				"ma",
+				"MAX"
+			],
+			[
+				"pool",
+				"poolMode"
+			],
+			[
+				"ke",
+				"kernel_w"
+			],
+			[
+				"pad",
+				"pad_h"
+			],
+			[
+				"nu",
+				"num_bins"
+			],
+			[
+				"p",
+				"pyramid_cnt"
+			],
+			[
+				"pa",
+				"pyramid_height"
+			],
+			[
+				"roi",
+				"rois"
+			],
+			[
+				"int",
+				"int8_t"
+			],
+			[
+				"fla",
+				"float"
+			],
+			[
+				"__hal",
+				"__half"
+			],
+			[
+				"cons",
+				"constant"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"__a",
+				"__half"
+			],
+			[
+				"__ha",
+				"__half"
+			],
+			[
+				"kti",
+				"kTileQ"
+			],
+			[
+				"src",
+				"kSrcVecSize"
+			],
+			[
+				"siz",
+				"size"
+			],
+			[
+				"__",
+				"__half"
+			],
+			[
+				"float",
+				"float2"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"half",
+				"half2"
+			],
+			[
+				"host",
+				"host_rois"
+			],
+			[
+				"hos",
+				"host_rois"
+			],
+			[
+				"OUTP",
+				"OUTPUT_LEN_CHANNEL"
+			],
+			[
+				"inp",
+				"INPUT_C"
+			],
+			[
+				"ty",
+				"typedef"
+			],
+			[
+				"stat",
+				"STATUS_BAD_PARAM"
+			],
+			[
+				"STA",
+				"STATUS_BAD_PARAM"
+			],
+			[
+				"SPA",
+				"spatialBinCount"
+			],
+			[
+				"sp",
+				"spatialBin"
+			],
+			[
+				"spati",
+				"spatialBinCount"
+			],
+			[
+				"spa",
+				"spatialScale"
+			],
+			[
+				"max",
+				"maxval"
+			],
+			[
+				"out",
+				"output_ptr"
+			],
+			[
+				"top",
+				"topData"
+			],
+			[
+				"poo",
+				"poolingH"
+			],
+			[
+				"da",
+				"DATA_T"
+			],
+			[
+				"spatil",
+				"spatial_bin"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"SHA",
+				"sharedW"
+			],
+			[
+				"run",
+				"runOrder"
+			],
+			[
+				"ed",
+				"endl"
+			],
+			[
+				"la",
+				"layerNames"
+			],
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"SH",
+				"SHAREHEIGHT"
+			],
+			[
+				"ac",
+				"a_col"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"dst",
+				"dst_k"
+			],
+			[
+				"wa",
+				"warpid"
+			],
+			[
+				"sha",
+				"SHAREHEIGHT"
+			],
+			[
+				"ar",
+				"a_row"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"ne",
+				"net"
+			],
+			[
+				"sh",
+				"SHAREHEIGHT"
+			],
+			[
+				"outp",
+				"OutputCpu"
+			],
+			[
+				"fp",
+				"fp16"
+			],
+			[
+				"s",
+				"sizeATrans"
+			],
+			[
+				"f",
+				"fp32tofp16"
+			],
+			[
+				"si",
+				"sizeM"
+			],
+			[
+				"bi",
+				"bdim"
+			],
+			[
+				"bl",
+				"BLOCKH"
+			],
+			[
+				"sa",
+				"SHAREH"
+			],
+			[
+				"in",
+				"INPUTS_PER_THREAD_Y"
+			],
+			[
+				"__s",
+				"__restrict__"
+			],
+			[
+				"cudamem",
+				"cudaMemcpyDeviceToHost"
+			],
+			[
+				"ou",
+				"outwh"
+			],
+			[
+				"va",
+				"validity_masks"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"cudam",
+				"cudaMemcpy"
+			],
+			[
+				"cu",
+				"cudaSuccess"
+			],
+			[
+				"fi",
+				"filterchannl"
+			],
+			[
+				"r",
+				"rowdata"
+			],
+			[
+				"ch",
+				"channel"
+			],
+			[
+				"pri",
+				"printOutput"
+			],
+			[
+				"sr",
+				"srcb"
+			],
+			[
+				"di",
+				"dim"
+			],
+			[
+				"o",
+				"OutputGpu"
+			],
+			[
+				"dim",
+				"dimM"
+			],
+			[
+				"pos",
+				"posy"
+			],
+			[
+				"do",
+				"dot7x7"
+			],
+			[
+				"tema",
+				"tempa"
+			],
+			[
+				"read",
+				"readcsv"
+			],
+			[
+				"csv",
+				"csvfile"
+			],
+			[
+				"get",
+				"getAllTime"
+			],
+			[
+				"ba",
+				"batch"
+			],
+			[
+				"net",
+				"networks"
+			],
+			[
+				"rw",
+				"rawdata"
+			],
+			[
+				"call",
+				"call"
+			],
+			[
+				"id",
+				"idxA"
+			],
+			[
+				"af",
+				"asfp4temp"
+			],
+			[
+				"as",
+				"asPtr"
+			],
+			[
+				"l",
+				"laneid"
+			],
+			[
+				"bs",
+				"bsfp4"
+			],
+			[
+				"SIZ",
+				"SIZEW"
+			],
+			[
+				"loo",
+				"loopcnt"
+			],
+			[
+				"Bei",
+				"BHEIGHT"
+			],
+			[
+				"bu",
+				"bufferPos"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"sz",
+				"size_t"
+			],
+			[
+				"gpu",
+				"gpuoutput"
+			],
+			[
+				"A",
+				"AVERTICAL"
+			],
+			[
+				"kb",
+				"kblockB"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"st",
+				"stride"
+			],
+			[
+				"b",
+				"bdim"
+			],
+			[
+				"bf",
+				"bufferPos"
+			],
+			[
+				"warp",
+				"warpid"
+			],
+			[
+				"S",
+				"SHAREHEIGHT"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"th",
+				"threadIdx"
+			],
+			[
+				"WA",
+				"warpid"
+			],
+			[
+				"arf",
+				"aRF"
+			],
+			[
+				"rand",
+				"random"
+			],
+			[
+				"ra",
+				"random"
+			],
+			[
+				"sw",
+				"swizzledb"
+			],
+			[
+				"at",
+				"atoi"
+			],
+			[
+				"blo",
+				"blockWidth"
+			],
+			[
+				"SI",
+				"SIZEW"
+			],
+			[
+				"atr",
+				"atransdim"
+			],
+			[
+				"blockdi",
+				"blockIdx"
+			],
+			[
+				"bo",
+				"blockIdx"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnFusedConvActLayer.cpp",
+			"settings":
+			{
+				"buffer_size": 18112,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/fusedConvRelu.cu",
+			"settings":
+			{
+				"buffer_size": 86429,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/layerUnitTest.cpp",
+			"settings":
+			{
+				"buffer_size": 76635,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/unitTestTypes.h",
+			"settings":
+			{
+				"buffer_size": 5693,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/testParams.h",
+			"settings":
+			{
+				"buffer_size": 10947,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnBuilder2.cpp",
+			"settings":
+			{
+				"buffer_size": 30656,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnReformatLayer.cpp",
+			"settings":
+			{
+				"buffer_size": 9929,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/infer_layer/batchTestModule.py",
+			"settings":
+			{
+				"buffer_size": 34015,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			]
+		],
+		"width": 703.0
+	},
+	"console":
+	{
+		"height": 626.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests"
+	],
+	"file_history":
+	[
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/unitTestTypes.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/backup/layerUnitTest.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/gtestWrapper.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/layerUnitTest.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnBuilderGraphOptimizer.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/scaleWeights.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/scaleWeights.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnFusedConvActLayer.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/infer_layer/main.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnLayerUtils.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/NvInfer.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnBuilderGraphNodes.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnBuilderGraph.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/backup/cudnnBuilder2.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnBlobInfo.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/fusedConvRelu.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnBuilder2.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnEngine.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/gemm_smallN.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/gie-329/spplayer.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/gie-329/testSppLayer.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/gie-329/spplayer.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/gie-329/cpuref.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/gie_buffers.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/scale.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/softmax.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/tiledPooling.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnLayerUtils.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/cpuRef.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/kernelTests.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/LayerParameters.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/fusedConvActMap.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/test.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnConvolutionLayer.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnScaleLayer.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/build-cuda-8.0/aarch64/winograd/release/include/utils.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/winograd/src/utils.h",
+		"/C/Users/alohal/Desktop/fp32 vs half2 runtime on GP10B.xlsx",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnFusedConvActLayer.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/testParams.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/gie_fbuffers.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/gie_types.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/layerUnitTest.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/layerTests.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/unitTestBase.h",
+		"/C/Users/alohal/Desktop/direct_convolution_CNN_DP4A_v4.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/main.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/testHelpers.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnBuilderWeightConverters.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnBuilderWeightConverters.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/resources.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/customWinogradConvActLayer.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/apiUnitTest.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnConvolutionLayer.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnActivationLayer.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnDeconvolutionLayer.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/winograd/src/implicit_gemm.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/winograd/src/main.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/oldBuild/aarch64/winograd/release/include/convolution.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/cudnnBuilderGraph.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/helpers.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/cudnnEngine.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/cudnnLayer.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/cudnnBlobInfo.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/resources.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/mycode/fusedConvRelu.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/caffeParser/caffeParser.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/gemm_smallN.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/build-cuda-8.0/aarch64/winograd/release/include/utils.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/cudnnBuilder2.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/tests/unitTests/gtestWrapper.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/NvInfer.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/tests/unitTests/main.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/build-cuda-8.0/aarch_old_pool/winograd/release/include/utils.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/gie-329/makefile",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/fusedConvRelu_alohal.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/fusedConvRelu.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/caffeHarness/infer_accuracy/infer_accuracy.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/winograd/src/winograd.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/cudnnEngine.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/cudnnFusedConvActLayer.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/customWinogradConvActLayer.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/gie-329/spplayer.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/gie-329/testSppLayer.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/gie-329/spplayer.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/cudnnLayerUtils.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/customWinogradConvActLayer.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/cudnnConvolutionLayer.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/samples/sampleFasterRCNN/sampleFasterRCNN.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/plugin/spplayer.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/plugin/spplayer.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/caffeHarness/infer_caffe/caffeHarness.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/plugin/NvPluginFasterRCNN.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/tiledPooling.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/plugin/roiPooling.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/plugin/rpnlayer.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/build-cuda-8.0/x86_64/winograd/release/include/implicit_gemm_sass_kernels.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/x86_64/fbEngine_generated.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/tiledPooling.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/tests/unitTests/Makefile",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/plugin/NvInferPlugin.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/build-cuda-8.0/aarch64/obj/pool.ptx",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/Infer.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/cudnnBuilderBlockChooser.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/cudnnBuilderBlockChooser.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/documentation/TensorRT User Guide.html",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/fbEngine_generated.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/winograd/src/128x32_medium.sass",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/tests/unitTests/kernelTests.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/gemm_smallN.hxx",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/TRTParser/trt.proto",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/TRTParser/trt.pb.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/LOCAL/GIE/lib/home/mattf/Android/ndk-r10e-android-21-x86_64-llvm-toolchain/sysroot/usr/include/math.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/cudnnPoolingLayer.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/deconv.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/winograd/src/implicit_gemm_sass_kernels.fp16.cuasm",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/winograd/src/imgemm.sass",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/build-cuda-8.0/aarch64/a.log",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/build-cuda-8.0/newNetworks/surround_0831_all_train_full_prune_abbrev.prototxt",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/deconv.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/cudnnElementWiseLayer.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/common/half.h",
+		"/C/Users/alohal/Desktop/a.cu",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/build-cuda-8.0/aarch64/winograd/include/utils.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/cudnnLRNLayer.cpp",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/cudnnLRNLayer.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/LayerParameters.h",
+		"/Y/dittree/sw/gpgpu/MachineLearning/DIT/trunk/engine/Network.cpp"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"*.cpp,*.h,*.cu,*.hpp,*.hxx,*.cc",
+			"*.cpp,*.h,*.cu,*.hpp,*.hxx",
+			"*.cpp,*.h,*.cu,*.hpp",
+			"C:\\Users\\alohal\\alohal_ALOHAL-LT_5316\\alohal_ALOHAL-LT_5316\\sw\\gpgpu\\MachineLearning\\DIT\\trunk",
+			"C:\\Users\\alohal\\alohal_ALOHAL-LT_5316\\alohal_ALOHAL-LT_5316\\sw\\gpgpu\\MachineLearning\\DIT\\",
+			"C:\\Users\\alohal\\alohal_ALOHAL-LT_5316\\alohal_ALOHAL-LT_5316\\sw\\gpgpu\\MachineLearning\\DIT\\trunk",
+			"C:\\Users\\alohal\\alohal_ALOHAL-LT_5316\\alohal_ALOHAL-LT_5316\\sw\\gpgpu\\MachineLearning\\DIT",
+			"*.cpp,*.h,*.cu,*.hpp",
+			"*.cpp,*.h,*.cu",
+			"C:\\Users\\alohal\\alohal_ALOHAL-LT_5316\\alohal_ALOHAL-LT_5316\\sw\\gpgpu\\MachineLearning\\DIT\\",
+			"*.cpp,*.h,*.cu",
+			"C:\\Users\\alohal\\alohal_ALOHAL-LT_5316\\alohal_ALOHAL-LT_5316\\sw\\gpgpu\\MachineLearning\\DIT\\externals",
+			"C:\\Users\\alohal\\alohal_ALOHAL-LT_5316\\alohal_ALOHAL-LT_5316\\sw\\gpgpu\\MachineLearning\\DIT\\",
+			"*.cpp,*.h,*.cu",
+			"*.cpp,*.h",
+			"C:\\Users\\alohal\\alohal_ALOHAL-LT_5316\\alohal_ALOHAL-LT_5316\\sw\\gpgpu\\MachineLearning\\DIT\\",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"half",
+			"__half",
+			"getFp16Kernels",
+			"getStride",
+			"execute",
+			"cudnnfused",
+			"1, 4, 16",
+			"cudnnfuse",
+			"cudnnConvolutionTests",
+			"ConvolutionParams",
+			"cudnnFusedConvActTests",
+			"mDims",
+			"cudnnFusedConvActTests",
+			"testFusedConvolution",
+			"cudnnfused",
+			"winogradFusedConvAct",
+			"cudnnfusedcon",
+			"addReformatLayers",
+			"updateRegionsFromNodes",
+			"cuda_fp16.h",
+			"//",
+			"fused",
+			"canBeStrided",
+			"canStride_",
+			"removeDeadLayers",
+			"removeConcatenations",
+			"start",
+			"extent",
+			"start",
+			"cExtentDVS",
+			"cOffsetDVS",
+			"extent",
+			"NHWKRSPToNKHRWS4",
+			"NHWKRSPToNKHRWS4\t",
+			"NHWKRSPToNKHRWS4",
+			"removeConcatenations",
+			"fuse",
+			"ReformatLayer",
+			"pool_one_bin",
+			"ret",
+			"remainder_w",
+			"remainder_h",
+			"DATA_T",
+			"reinterpret_cast",
+			"re_",
+			"ROI_T",
+			"pool_h",
+			"round",
+			"ROUND",
+			"spatialScale",
+			"SppForwardMultiROILauncher",
+			"spatialBin",
+			"spatialBinCount",
+			"spatialBin",
+			"roiInference_cpu",
+			"roi",
+			"sizeOneROIchannel",
+			"ROICount",
+			"SppForwardMultiROI",
+			"SPATIALBIN",
+			"SppForwardMultiROI",
+			"spatialBin",
+			"SppForwardMultiROI",
+			"stride",
+			"chw",
+			"stride",
+			"ITiledPooling",
+			"64, 28",
+			"refRoiPoolingAligned",
+			"testFusedConvolution",
+			"cudnnfusedconv",
+			"fusedconv",
+			"copyWeightsToDevice",
+			"std::move",
+			"BiasHandler",
+			"7, 7, 2",
+			"5, 5, 2, 2",
+			"5, 5, 2",
+			"__hfma",
+			"move",
+			"ResultHandler",
+			"DstCompactType",
+			"ResultHandler",
+			"executeFused",
+			"mFp16FusedParams",
+			"alphaPtr",
+			"bias",
+			"getValidTacticsFused",
+			"typename SrcType",
+			"executeFused",
+			"BiasType",
+			"biasPtr",
+			"setupKernelFused",
+			"typename SrcType",
+			"getValidTacticsFused",
+			"IFusedConvActBase",
+			"float",
+			"BiasType",
+			"setupKernelFused",
+			"float",
+			"getValidTacticsFused",
+			"getFp16Kernels",
+			"EpilogAccHandler",
+			"BiasHandler",
+			"add_bias",
+			"BiasHandler",
+			"fusedConvActKernelBase",
+			"ResultHandler",
+			"add_bias",
+			"scale",
+			"add_bias",
+			"__half",
+			"getFp16Kernels",
+			"mFp16FusedParams",
+			"biastype",
+			"scale",
+			"epilogAccHandler",
+			"BiasHandler",
+			"biasType",
+			"__float2half2_rn",
+			"__float22half2",
+			"__float22half_rn",
+			"__float2half_rc",
+			"params",
+			"float",
+			"WINOGRAD",
+			"printf",
+			"BiasHandler"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"st_val",
+			"remaind_w",
+			"remaind_h",
+			"Dtype",
+			"float",
+			"pool_hw",
+			"__half",
+			"__half2",
+			"poolHW",
+			"rois_smem",
+			"bottomData",
+			"ld.global.nc.f32",
+			"",
+			"32",
+			"blockIdx.x",
+			"CRS",
+			"7",
+			"rs",
+			"__half",
+			"srca",
+			"adim",
+			"srca",
+			"brf",
+			"arf",
+			"i",
+			"adim",
+			"mblock",
+			"k",
+			"sizeM",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnFusedConvActLayer.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8461,
+								8461
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4741.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/fusedConvRelu.cu",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 86429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10080,
+								10080
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CUDA C++/cuda-c++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5951.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/layerUnitTest.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 76635,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76512,
+								76512
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 62106.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/unitTestTypes.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5693,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5374,
+								5381
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2091.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/unitTests/testParams.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1631,
+								1631
+							],
+							[
+								1668,
+								1668
+							],
+							[
+								1713,
+								1713
+							],
+							[
+								1754,
+								1754
+							],
+							[
+								1795,
+								1795
+							],
+							[
+								1836,
+								1836
+							],
+							[
+								1877,
+								1877
+							],
+							[
+								1920,
+								1920
+							],
+							[
+								1961,
+								1961
+							],
+							[
+								2002,
+								2002
+							],
+							[
+								2045,
+								2045
+							],
+							[
+								2088,
+								2088
+							],
+							[
+								2129,
+								2129
+							],
+							[
+								2170,
+								2170
+							],
+							[
+								2211,
+								2211
+							],
+							[
+								2252,
+								2252
+							],
+							[
+								2295,
+								2295
+							],
+							[
+								2336,
+								2336
+							],
+							[
+								2377,
+								2377
+							],
+							[
+								2422,
+								2422
+							],
+							[
+								2463,
+								2463
+							],
+							[
+								2504,
+								2504
+							],
+							[
+								2545,
+								2545
+							],
+							[
+								2586,
+								2586
+							],
+							[
+								2629,
+								2629
+							],
+							[
+								2670,
+								2670
+							],
+							[
+								2711,
+								2711
+							],
+							[
+								2754,
+								2754
+							],
+							[
+								2797,
+								2797
+							],
+							[
+								2838,
+								2838
+							],
+							[
+								2879,
+								2879
+							],
+							[
+								2920,
+								2920
+							],
+							[
+								2961,
+								2961
+							],
+							[
+								3004,
+								3004
+							],
+							[
+								3045,
+								3045
+							],
+							[
+								3086,
+								3086
+							],
+							[
+								3131,
+								3131
+							],
+							[
+								3172,
+								3172
+							],
+							[
+								3213,
+								3213
+							],
+							[
+								3254,
+								3254
+							],
+							[
+								3295,
+								3295
+							],
+							[
+								3338,
+								3338
+							],
+							[
+								3379,
+								3379
+							],
+							[
+								3420,
+								3420
+							],
+							[
+								3463,
+								3463
+							],
+							[
+								3506,
+								3506
+							],
+							[
+								3547,
+								3547
+							],
+							[
+								3588,
+								3588
+							],
+							[
+								3629,
+								3629
+							],
+							[
+								3670,
+								3670
+							],
+							[
+								3713,
+								3713
+							],
+							[
+								3754,
+								3754
+							],
+							[
+								3795,
+								3795
+							],
+							[
+								3840,
+								3840
+							],
+							[
+								3881,
+								3881
+							],
+							[
+								3922,
+								3922
+							],
+							[
+								3963,
+								3963
+							],
+							[
+								4006,
+								4006
+							],
+							[
+								4047,
+								4047
+							],
+							[
+								4088,
+								4088
+							],
+							[
+								4131,
+								4131
+							],
+							[
+								4174,
+								4174
+							],
+							[
+								4215,
+								4215
+							],
+							[
+								4256,
+								4256
+							],
+							[
+								4297,
+								4297
+							],
+							[
+								4338,
+								4338
+							],
+							[
+								4379,
+								4379
+							],
+							[
+								4420,
+								4420
+							],
+							[
+								4463,
+								4463
+							],
+							[
+								4504,
+								4504
+							],
+							[
+								4545,
+								4545
+							],
+							[
+								4593,
+								4593
+							],
+							[
+								4642,
+								4642
+							],
+							[
+								4692,
+								4692
+							],
+							[
+								4733,
+								4733
+							],
+							[
+								4770,
+								4770
+							],
+							[
+								4809,
+								4809
+							],
+							[
+								4848,
+								4848
+							],
+							[
+								4889,
+								4889
+							],
+							[
+								4926,
+								4926
+							],
+							[
+								4965,
+								4965
+							],
+							[
+								5004,
+								5004
+							],
+							[
+								5045,
+								5045
+							],
+							[
+								5083,
+								5083
+							],
+							[
+								5121,
+								5121
+							],
+							[
+								5161,
+								5161
+							],
+							[
+								5208,
+								5208
+							],
+							[
+								5248,
+								5248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 425.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnBuilder2.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14701,
+								14701
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4591.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/engine/cudnnReformatLayer.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9929,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3261,
+								3271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Y/dittree/sw/gpgpu/MachineLearning/DIT/dev/2.1-rc-temp/tests/infer_layer/batchTestModule.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31183,
+								31183
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11676.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "gie2.1rc-temp.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 391.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
